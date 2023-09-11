@@ -1,0 +1,54 @@
+Textfile
+//,type,title,maker,thumbnail...
+#INFORMATION,0,Black Knight Mania,Vad1m_1719,
+#RESOLUTION,1,
+//typeは,,,,
+//0 7KEYS,,,,
+//1 5KEYS,,,,
+//2 14KEYS,,,,
+//3 10KEYS,,,,
+//4 9KEYS,,,,
+//5 MUSICSELECT,,,,
+//6 DECIDE,,,,
+//7 RESULT,,,,
+//8 KEYCONFIG,,,,
+//9 SKINSELECT,,,,
+//10 SOUNDSET,,,,
+//11 THEME,,,,
+//900,LEFT,901,RIGHT
+#CUSTOMOPTION,PLAYSIDE,900,LEFT,RIGHT,,,
+//INFORMATIONとCUSTOMIZEの終了時に入れてください。
+//必須ではありませんが、起動が少しばかり高速になります。
+#CUSTOMOPTION,BGA Size,902,Type A,Type B,Type C,
+#CUSTOMOPTION,Subtitle,910,ON,OFF,
+#CUSTOMOPTION,Score Mode,905,Money,EXSCORE,,,,
+#CUSTOMOPTION,Bottom Right,912,Date/Clock,Title,Tit+Art+Gen,Title+Subtitle,DJ Player,Song play,
+#CUSTOMOPTION,INPUT,919,KEYBOARD,CONTROLLER,,,,
+#CUSTOMFILE,NOTES,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Notes\*.png,Default 8dot,
+#CUSTOMFILE,LONG NOTES,.\LR2files\Theme\Black_Knight_Classic_7K\Play\LNotes\*.png,Deluxe,
+#CUSTOMFILE,BOM,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Bomb\*.png,SPADA,
+#CUSTOMFILE,LN BOMB,.\LR2files\Theme\Black_Knight_Classic_7K\Play\CN_Bomb\*.png,Default,
+#CUSTOMFILE,LANECOVER,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Lanecover\*.png,lane047,
+#CUSTOMFILE,JUDGE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Judge\*.png,judge07,
+#CUSTOMFILE,KEY BEAM,.\LR2files\Theme\Black_Knight_Classic_7K\Play\KeyBeam\*.png,Default,
+#CUSTOMFILE,GLOW,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Glow\*.png,Red,
+#CUSTOMFILE,GAUGE INDICATOR,.\LR2files\Theme\Black_Knight_Classic_7K\Play\newgauge\*.png,Default,
+#CUSTOMFILE,MINE NOTES,.\LR2files\Theme\Black_Knight_Classic_7K\Play\notemine\*.png,WMix,
+#CUSTOMFILE,JUDGE LINE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\judgeline\*.png,#Red,
+#CUSTOMFILE,Title Font,LR2files\Theme\Black_Knight_Classic_7K\EXfont\Title\*,title,
+#CUSTOMFILE,FULLCOMBO,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Fullcombo\*,
+#ENDOFHEADER,,,,,,,,
+
+
+
+//スキン分岐
+//,左サイド,左sc,
+#IF,900,,,,
+#INCLUDE,LR2files\Theme\Black_Knight_Classic_7K\Play\csv\L7K.csv
+#ENDIF,,,,,
+
+//,右サイド,右sc,
+#IF,901,,,,
+#INCLUDE,LR2files\Theme\Black_Knight_Classic_7K\Play\csv\R7K.csv
+#ENDIF,,,,,
+
