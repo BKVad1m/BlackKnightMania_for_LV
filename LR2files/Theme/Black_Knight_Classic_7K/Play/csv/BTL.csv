@@ -1330,12 +1330,12 @@
 #DST_IMAGE,0,750,1119,600,161,21,0,255,255,255,255,1,0,0,0,750,0,0,0,0
 #IF,906,
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta
-#SRC_NUMBER,0,0,684,485,352,36,11,1,0,0,101,0,6
+#SRC_NUMBER,0,0,684,485,352,36,11,1,0,0,121,0,6
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_NUMBER,0,750,1044,558,32,36,0,255,255,255,255,1,0,0,0,750,0,0,0,0
 #ELSE,
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta
-#SRC_NUMBER,0,0,684,485,352,36,11,1,0,0,100,0,6
+#SRC_NUMBER,0,0,684,485,352,36,11,1,0,0,120,0,6
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_NUMBER,0,750,1044,558,32,36,0,255,255,255,255,1,0,0,0,750,0,0,0,0
 #ENDIF,
@@ -1394,7 +1394,7 @@
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_NUMBER,0,750,1087,600,16,21,0,255,255,255,255,0,0,0,0,750,0,0,0,0
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta
-#SRC_NUMBER,0,0,684,485,352,36,11,1,0,0,107,0,3
+#SRC_NUMBER,0,0,684,485,352,36,11,1,0,0,127,0,3
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_NUMBER,0,750,880,666,32,36,0,255,255,255,255,1,0,0,0,750,0,0,0,0// This number is hell
 
