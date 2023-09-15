@@ -23,6 +23,8 @@ Textfile
 #CUSTOMOPTION,Subtitle,910,ON,OFF,
 #CUSTOMOPTION,Score Mode,905,Money,EXSCORE,,,,
 #CUSTOMOPTION,Bottom Right,912,Date/Clock,Title,Tit+Art+Gen,Title+Subtitle,Tit+SubT+Art+SubA+Gen,DJ Player,Song play,
+#CUSTOMOPTION,Judge Display,921,ON,OFF,
+#CUSTOMOPTION,Colored timing,923,OFF,ON,
 #CUSTOMOPTION,INPUT,919,KEYBOARD,CONTROLLER,,,,
 #CUSTOMFILE,NOTES,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Notes\*.png,Default 8dot,
 #CUSTOMFILE,LONG NOTES,.\LR2files\Theme\Black_Knight_Classic_7K\Play\LNotes\*.png,Deluxe,
