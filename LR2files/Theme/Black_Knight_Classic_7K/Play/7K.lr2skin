@@ -17,6 +17,7 @@ Textfile
 //11 THEME,,,,
 //900,LEFT,901,RIGHT
 #CUSTOMOPTION,PLAYSIDE,900,LEFT,RIGHT,,,
+#CUSTOMFILE,FRAME,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Frame\*.png,
 //INFORMATIONとCUSTOMIZEの終了時に入れてください。
 //必須ではありませんが、起動が少しばかり高速になります。
 #CUSTOMOPTION,BGA Size,902,Type A,Type B,Type C,
