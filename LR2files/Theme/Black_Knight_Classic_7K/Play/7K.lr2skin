@@ -38,6 +38,7 @@ Textfile
 #CUSTOMFILE,GAUGE INDICATOR,.\LR2files\Theme\Black_Knight_Classic_7K\Play\newgauge\*.png,Default,
 #CUSTOMFILE,MINE NOTES,.\LR2files\Theme\Black_Knight_Classic_7K\Play\notemine\*.png,WMix,
 #CUSTOMFILE,JUDGE LINE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\judgeline\*.png,#Red,
+#CUSTOMFILE,Shutter,.\LR2files\Theme\Black_Knight_Classic_7K\Play\shutter\*.png
 #CUSTOMFILE,Title Font,LR2files\Theme\Black_Knight_Classic_7K\EXfont\Title\*,title,
 #CUSTOMFILE,FULLCOMBO,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Fullcombo\*,
 #ENDOFHEADER,,,,,,,,
