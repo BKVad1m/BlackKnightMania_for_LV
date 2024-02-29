@@ -263,19 +263,6 @@
 #DST_IMAGE,0,0,1280,0,1280,720,0,180,255,255,255,1,0,0,0,-1,2,0,0,0
 #DST_IMAGE,0,200,0,0,1280,720,0,180,255,255,255,1,0,0,0,,,,,
 #ENDIF
-//開幕シャッター 上,,,,,,,,,,,,,,,,,,,,
-//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
-#SRC_IMAGE,0,49,0,10,1280,356,1,1,0,0,0,0,0,,,,,,,
-//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_IMAGE,0,0,0,0,1280,356,0,255,255,255,255,1,0,0,0,-1,0,0,0,0
-#DST_IMAGE,0,390,0,-356,1280,356,0,255,255,255,255,1,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,,,,,,,,,
-//開幕シャッター 下,,,,,,,,,,,,,,,,,,,,
-//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
-#SRC_IMAGE,0,49,0,368,1280,364,1,1,0,0,0,0,0,,,,,,,
-//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_IMAGE,0,0,0,356,1280,364,0,255,255,255,255,1,0,0,0,-1,0,0,0,0
-#DST_IMAGE,0,390,0,720,1280,364,0,255,255,255,255,1,0,0,0,0,0,0,0,0
 //BGA Zone
 //Type A
 #IF,902,
@@ -428,11 +415,7 @@
 
 
 #ENDIF
-//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
-#SRC_IMAGE,0,0,391,970,293,68,1,1,0,0
-//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_IMAGE,0,0,1280,484,293,68,0,255,255,255,255,1,0,0,0,500,0,0,0,0
-#DST_IMAGE,0,500,939,484,293,68,0,255,255,255,255,1,0,0,0
+
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
 #SRC_IMAGE,0,0,684,0,293,484,1,1,0,0
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
@@ -499,7 +482,7 @@
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_BUTTON,0,0,670,720,63,72,0,255,255,255,255,1,0,0,0,500,0,0,0,0
 #DST_BUTTON,0,500,670,648,63,72,0,255,255,255,255,1,0,0,0
-//[29l]Parameters on this panel
+//[29]Parameters on this panel
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
 #SRC_IMAGE,0,0,1681,338,352,163,1,1,0,0
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
@@ -924,6 +907,11 @@
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_IMAGE,0,0,-293,484,293,68,0,255,255,255,255,1,0,0,0,500,0,0,0,0
 #DST_IMAGE,0,500,48,484,293,68,0,255,255,255,255,1,0,0,0
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,0,391,970,293,68,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,1280,484,293,68,0,255,255,255,255,1,0,0,0,500,0,0,0,0
+#DST_IMAGE,0,500,939,484,293,68,0,255,255,255,255,1,0,0,0
 
 //Scratch
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
@@ -1816,12 +1804,21 @@
 //基本的に#SRC_IMAGEと同じですが、コンボの幅の半分だけ左に自動的にシフトして表示されます。,,,,,,,,,,,,,,,,,,,,,
 //シフトをオフにする場合(ジャッジとコンボを二列に分けて表示するときとか)は、noshift=1にして下さい,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
+#IF,926,,,,,,,,,,,,,,,,,,,,
+//空Poor index = 0,,,,,,,,,,,,,,,,,,,,,
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift,op2,op3,,,,,,,,
+#SRC_NOWJUDGE_1P,0,16,540,222,282,74,2,1,40,0,0,0,0,,,,,,,,
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,,,,
+#DST_NOWJUDGE_1P,0,0,1015,342,141,74,0,255,255,255,255,1,0,0,0,-1,46,,,,
+#DST_NOWJUDGE_1P,0,500,1015,342,141,74,0,255,255,255,255,1,0,0,0,,,,,,
+#ELSE
 //空Poor index = 0,,,,,,,,,,,,,,,,,,,,,
 //SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift,op2,op3,,,,,,,,
 #SRC_NOWJUDGE_1P,0,16,540,148,282,74,2,1,40,0,0,0,0,,,,,,,,
 //DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,,,,
 #DST_NOWJUDGE_1P,0,0,1015,342,141,74,0,255,255,255,255,1,0,0,0,-1,46,,,,
 #DST_NOWJUDGE_1P,0,500,1015,342,141,74,0,255,255,255,255,1,0,0,0,,,,,,
+#ENDIF
 ,,,,,,,,,,,,,,,,,,,,,
 //見逃しPoor index = 1,,,,,,,,,,,,,,,,,,,,,
 //SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift,op2,op3,,,,,,,,
@@ -1894,30 +1891,57 @@
 
 
 
+#SRC_IMAGE,0,110,0,0,1,1,1,1,0,0,
+#DST_IMAGE,0,400,0,0,1280,720,0,0,255,255,255,1,0,0,0,900,3,0,0,0,
+#DST_IMAGE,0,900,0,0,1280,720,0,255,255,255,255,1,0,0,0,
+
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
-#SRC_IMAGE,0,2,0,0,1280,720,1,1,0,0
+#SRC_IMAGE,0,2,0,1225,1400,720,2,1,14,0
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_IMAGE,0,0,0,-720,1280,720,0,255,255,255,255,1,0,0,0,500,3,0,0,0
-#DST_IMAGE,0,500,0,0,1280,720,0,255,255,255,255,1,0,0,0
+#DST_IMAGE,0,500,-700,0,700,720,0,255,255,255,255,1,0,0,0,1500,3,0,0,0
+#DST_IMAGE,0,1000,-210,0,700,720,2,255,255,255,255,1,0,0,0
+#DST_IMAGE,0,1500,0,0,700,720,2,255,255,255,255,1,0,0,0
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
-#SRC_IMAGE,0,2,0,720,1280,720,1,1,0,0
+#SRC_IMAGE,0,2,1281,0,996,832,1,2,14,0
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_IMAGE,0,250,0,-360,1280,720,0,255,255,255,255,1,0,0,0,500,3,0,0,0
-#DST_IMAGE,0,500,0,0,1280,720,0,255,255,255,255,1,0,0,0
+#DST_IMAGE,0,500,284,-416,996,416,0,255,255,255,255,1,0,0,0,1500,3,0,0,0
+#DST_IMAGE,0,1000,284,-125,996,416,2,255,255,255,255,1,0,0,0
+#DST_IMAGE,0,1500,284,0,996,416,2,255,255,255,255,1,0,0,0
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
-#SRC_IMAGE,0,2,1280,0,1280,1440,1,2,13,0
+#SRC_IMAGE,0,2,2278,0,885,610,1,2,14,0
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_IMAGE,0,250,0,-360,1280,720,0,255,255,255,255,2,0,0,0,-1,3,0,0,0
-#DST_IMAGE,0,300,0,-288,1280,720,0,255,255,255,255,2,0,0,0
-#DST_IMAGE,0,301,0,-288,1280,720,0,0,255,255,255,2,0,0,0
-#DST_IMAGE,0,499,0,0,1280,720,0,0,255,255,255,2,0,0,0
-#DST_IMAGE,0,500,0,0,1280,720,0,255,255,255,255,2,0,0,0
-#DST_IMAGE,0,508,0,0,1280,720,0,255,255,255,255,2,0,0,0
+#DST_IMAGE,0,500,395,720,885,305,0,255,255,255,255,1,0,0,0,1500,3,0,0,0
+#DST_IMAGE,0,1000,395,627,885,305,2,255,255,255,255,1,0,0,0
+#DST_IMAGE,0,1500,395,415,885,305,2,255,255,255,255,1,0,0,0
+
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
-#SRC_IMAGE,0,2,2560,0,1280,1440,1,2,10,0
+#SRC_IMAGE,0,2,1180,833,320,64,1,1,0,0
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_IMAGE,0,500,0,0,1280,720,0,255,255,255,255,2,0,0,0,-1,3,0,0,0
-#DST_IMAGE,0,1500,0,0,1280,720,0,0,255,255,255,2,0,0,0
+#DST_IMAGE,0,500,-320,352,320,64,2,255,255,255,255,1,0,0,0,2600,3,0,0,0
+#DST_IMAGE,0,1250,418,352,320,64,0,255,255,255,255,1,0,0,0
+#DST_IMAGE,0,2600,438,352,320,64,0,255,255,255,255,1,0,0,0
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,2,1180,898,384,64,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,500,1280,416,384,64,2,255,255,255,255,1,0,0,0,2600,3,0,0,0
+#DST_IMAGE,0,1250,546,416,384,64,0,255,255,255,255,1,0,0,0
+#DST_IMAGE,0,2600,526,416,384,64,0,255,255,255,255,1,0,0,0
+
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,2,0,0,1280,728,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,0,720,1280,728,2,255,255,255,255,1,0,0,0,500,3,0,0,0
+#DST_IMAGE,0,500,0,0,1280,728,0,255,255,255,255,1,0,0,0
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,2,0,736,1179,488,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,101,-488,1179,488,2,255,255,255,255,1,0,0,0,2600,3,0,0,0
+#DST_IMAGE,0,600,101,-144,1179,488,0,255,255,255,255,1,0,0,0
+#DST_IMAGE,0,1600,101,-136,1179,488,1,255,255,255,255,1,0,0,0
+#DST_IMAGE,0,2600,101,-8,1179,488,0,255,255,255,255,1,0,0,0
+#SRC_IMAGE,0,110,0,0,1,1,1,1,0,0,
+#DST_IMAGE,0,1600,0,0,1280,720,1,0,255,255,255,1,0,0,0,2600,3,0,0,0,
+#DST_IMAGE,0,2600,0,0,1280,720,0,255,255,255,255,1,0,0,0,
 //Fade
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
 #SRC_IMAGE,0,110,0,0,1,1,1,1,0,0,0,0,0,,,,,,,
@@ -1941,7 +1965,19 @@
 #DST_IMAGE,0,0,1280,0,1280,720,0,180,255,255,255,1,0,0,0,-1,2,0,0,0
 #DST_IMAGE,0,200,0,0,1280,720,0,180,255,255,255,1,0,0,0,,,,,
 
-
+//開幕シャッター 上,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,49,0,10,1280,356,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,0,0,1280,356,0,255,255,255,255,1,0,0,0,-1,0,0,0,0
+#DST_IMAGE,0,390,0,-356,1280,356,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,
+//開幕シャッター 下,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,49,0,368,1280,364,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,0,356,1280,364,0,255,255,255,255,1,0,0,0,-1,0,0,0,0
+#DST_IMAGE,0,390,0,720,1280,364,0,255,255,255,255,1,0,0,0,0,0,0,0,0
 
 
 
