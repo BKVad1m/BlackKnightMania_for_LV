@@ -96,7 +96,7 @@
 #IMAGE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Difficulty\*\spada_lv.png,,,,,,,,,,,,,,,,,34
 #IMAGE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\noise\*.png,,,,,,,,,,,,,,,,,35
 #IMAGE,.dummy,,,,,,,,,,,,,,,,,36
-#IMAGE,.dummy,,,,,,,,,,,,,,,,,37
+#IMAGE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\ghostnumbers\*.png,,,,,,,,,,,,,,,,,37
 #IMAGE,.dummy,,,,,,,,,,,,,,,,,38
 #IMAGE,.dummy,,,,,,,,,,,,,,,,,39
 #IMAGE,.dummy,,,,,,,,,,,,,,,,,40
@@ -1013,6 +1013,24 @@
 #DST_IMAGE,0,1050,684,76,292,408,0,255,255,255,255,1,0,0,0,,,,,,
 #DST_IMAGE,0,1080,684,11,292,473,0,255,255,255,255,1,0,0,0,,,,,,
 #DST_IMAGE,0,1110,684,0,292,484,0,255,255,255,255,1,0,0,0,,,,,,
+
+//スライダーの一種として扱います,,,,,,,,,,,,,,,,,,,,,
+//1P 4 2P 5,,,,,,,,,,,,,,,,,,,,,
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,muki,range,type,disable,,,,,,,
+#SRC_SLIDER,0,9,0,0,288,482,1,1,0,0,2,482,4,1,,,,,,,
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3,
+#DST_SLIDER,0,0,306,-964,288,482,2,255,255,255,255,1,1,0,0,1500,0,0,0,0,
+#DST_SLIDER,0,1000,306,-964,288,482,2,255,255,255,255,1,1,0,0,,,,,,
+#DST_SLIDER,0,1500,306,-482,288,482,2,255,255,255,255,1,1,0,0,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+//1P 4 2P 5,,,,,,,,,,,,,,,,,,,,,
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,muki,range,type,disable,,,,,,,
+#SRC_SLIDER,0,9,0,0,288,482,1,1,0,0,2,482,4,1,,,,,,,
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3,
+#DST_SLIDER,0,0,686,-964,288,482,2,255,255,255,255,1,1,0,0,1500,0,0,0,0,
+#DST_SLIDER,0,1000,686,-964,288,482,2,255,255,255,255,1,1,0,0,,,,,,
+#DST_SLIDER,0,1500,686,-482,288,482,2,255,255,255,255,1,1,0,0,,,,,,
+
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
 #SRC_IMAGE,0,0,97,970,293,68,1,1,0,0
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
@@ -1132,11 +1150,11 @@
 #IF,906,
 #SRC_NUMBER,0,0,684,485,352,36,11,1,0,0,101,0,6
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_NUMBER,0,750,368,558,32,36,0,255,255,255,255,1,0,0,0,750,0,0,0,0
+#DST_NUMBER,0,750,370,558,32,36,0,255,255,255,255,1,0,0,0,750,0,0,0,0
 #ELSE,
 #SRC_NUMBER,0,0,684,485,352,36,11,1,0,0,100,0,6
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_NUMBER,0,750,368,558,32,36,0,255,255,255,255,1,0,0,0,750,0,0,0,0
+#DST_NUMBER,0,750,370,558,32,36,0,255,255,255,255,1,0,0,0,750,0,0,0,0
 #ENDIF
 //Panel
 
@@ -2344,6 +2362,58 @@
 #DST_NOWCOMBO_2P,5,0,168,0,37,74,0,255,255,255,255,1,0,0,0,-1,47,,,,
 #DST_NOWCOMBO_2P,5,500,168,0,37,74,0,255,255,255,255,1,0,0,0,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+//option35 TYPE A,,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(null),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta,,,,,,,,
+#SRC_NUMBER,0,37,0,0,144,36,12,2,0,0,108,0,4,,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3,
+#DST_NUMBER,0,0,416,330,12,18,0,255,255,255,255,1,0,0,0,-1,46,35,32,241,
+#DST_NUMBER,0,500,416,330,12,18,0,255,255,255,255,1,0,0,0,,,,,,
+//option35 TYPE A,,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(null),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta,,,,,,,,
+#SRC_NUMBER,0,37,0,0,144,72,12,4,40,0,108,0,4,,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3,
+#DST_NUMBER,0,0,416,330,12,18,0,255,255,255,255,1,0,0,0,-1,46,35,32,-241,
+#DST_NUMBER,0,500,416,330,12,18,0,255,255,255,255,1,0,0,0,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+//option36 TYPE B,,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(null),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta,,,,,,,,
+#SRC_NUMBER,0,37,0,0,144,36,12,2,0,0,108,0,4,,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3,
+#DST_NUMBER,0,0,610,379,12,18,0,255,255,255,255,1,0,0,0,0,0,36,32,-270,
+,,,,,,,,,,,,,,,,,,,,,
+//option37 TYPE C,,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(null),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta,,,,,,,,
+#SRC_NUMBER,0,37,0,0,144,36,12,2,0,0,108,0,4,,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3,
+#DST_NUMBER,0,0,610,468,12,18,0,255,255,255,255,1,0,0,0,0,0,37,32,-270,
+,,,,,,,,,,,,,,,,,,,,,
+2p,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+//option35 TYPE A,,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(null),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta,,,,,,,,
+#SRC_NUMBER,0,37,0,0,144,36,12,2,0,0,108,0,4,,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3,
+#DST_NUMBER,0,0,796,330,12,18,0,255,255,255,255,1,0,0,0,-1,47,35,32,241,
+#DST_NUMBER,0,500,796,330,12,18,0,255,255,255,255,1,0,0,0,,,,,,
+//option35 TYPE A,,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(null),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta,,,,,,,,
+#SRC_NUMBER,0,37,0,0,144,72,12,4,40,0,108,0,4,,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3,
+#DST_NUMBER,0,0,796,330,12,18,0,255,255,255,255,1,0,0,0,-1,47,35,32,-241,
+#DST_NUMBER,0,500,796,330,12,18,0,255,255,255,255,1,0,0,0,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+//option36 TYPE B,,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(null),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta,,,,,,,,
+#SRC_NUMBER,0,37,0,0,144,36,12,2,0,0,108,0,4,,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3,
+#DST_NUMBER,0,0,990,379,12,18,0,255,255,255,255,1,0,0,0,0,0,36,32,-270,
+,,,,,,,,,,,,,,,,,,,,,
+//option37 TYPE C,,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(null),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta,,,,,,,,
+#SRC_NUMBER,0,37,0,0,144,36,12,2,0,0,108,0,4,,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3,
+#DST_NUMBER,0,0,990,468,12,18,0,255,255,255,255,1,0,0,0,0,0,37,32,-270,
 
 
 

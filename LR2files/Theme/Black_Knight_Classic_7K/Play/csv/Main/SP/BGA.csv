@@ -1,0 +1,32 @@
+//BGA Zone SP [DO NOT EDIT!]
+//Type A
+#IF,902,
+//SRC定義,(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),nobase,nolayer,nopoor
+#SRC_BGA,0,0,0,0,0,0,0,0,0,0,0,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_BGA,0,0,340,0,600,651,0,255,255,255,255,0,0,0,0,0,0,30,0,0
+//SRC定義,(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),nobase,nolayer,nopoor
+#SRC_BGA,0,0,0,0,0,0,0,0,0,0,0,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_BGA,0,0,340,0,600,552,0,255,255,255,255,0,0,0,0,0,0,31,0,0
+//Type B
+#ELSEIF,903,
+//SRC定義,(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),nobase,nolayer,nopoor
+#SRC_BGA,0,0,0,0,0,0,0,0,0,0,0,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_BGA,0,0,340,52,600,448,0,255,255,255,255,0,0,0,0,0,0,30,0,0
+//SRC定義,(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),nobase,nolayer,nopoor
+#SRC_BGA,0,0,0,0,0,0,0,0,0,0,0,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_BGA,0,0,340,105,600,337,0,255,255,255,255,0,0,0,0,0,0,31,0,0
+//Type C
+#ELSEIF,904,
+//SRC定義,(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),nobase,nolayer,nopoor
+#SRC_BGA,0,0,0,0,0,0,0,0,0,0,0,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_BGA,0,0,160,0,960,720,0,255,255,255,255,0,0,0,0,0,0,30,0,0
+//SRC定義,(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),nobase,nolayer,nopoor
+#SRC_BGA,0,0,0,0,0,0,0,0,0,0,0,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_BGA,0,0,0,0,1280,720,0,255,255,255,255,0,0,0,0,0,0,31,0,0
+#ENDIF

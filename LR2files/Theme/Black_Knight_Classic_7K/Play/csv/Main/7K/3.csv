@@ -1,0 +1,10 @@
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,0,97,970,293,68,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,-293,484,293,68,0,255,255,255,255,1,0,0,0,500,0,0,0,0
+#DST_IMAGE,0,500,48,484,293,68,0,255,255,255,255,1,0,0,0
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,0,391,970,293,68,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,1280,484,293,68,0,255,255,255,255,1,0,0,0,500,0,0,0,0
+#DST_IMAGE,0,500,939,484,293,68,0,255,255,255,255,1,0,0,0

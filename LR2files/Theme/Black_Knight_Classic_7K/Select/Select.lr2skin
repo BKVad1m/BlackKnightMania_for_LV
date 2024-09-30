@@ -1,0 +1,28 @@
+#INFORMATION,5,Black Knight Mania,Vad1m_1719
+#RESOLUTION,1,
+#CUSTOMFILE,Image BG,LR2files\WallPaper\HD\*,Default
+
+
+#CUSTOMOPTION,banner,938,ON,OFF,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ENDOFHEADER,,,,,,,,
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//スキン本体
+#INCLUDE,LR2files\Theme\Black_Knight_Classic_7K\Select\csv\core.csv,

@@ -1,0 +1,135 @@
+//Emblems [DO NOT EDIT!]
+//Course mode [Stages]
+#IF,290,
+//1st stage
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,100,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,-289,280,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,100,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,-289,280,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+//2nd stage
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,200,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,-289,281,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,200,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,-289,281,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+//3rd stage
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,300,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,-289,282,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,300,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,-289,282,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+//4th stage
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,400,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,-289,283,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,400,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,-289,283,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+//5th stage
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,500,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,-289,284,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,500,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,-289,284,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+//6th stage
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,600,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,-289,285,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,600,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,-289,285,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+//7th stage
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,700,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,-289,286,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,700,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,-289,286,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+//8th stage
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,800,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,-289,287,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,800,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,-289,287,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+//9th stage
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,900,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,-289,288,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,900,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,-289,288,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+//final stage
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,1000,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,289,0,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,1000,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,289,0,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+#ELSE,
+//Free mode
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,0,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,-84,32,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,0,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,-84,32,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+//Autoplay
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,1200,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,-84,33,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,1200,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,-84,33,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+//Replay mode
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,1300,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,480,341,0,598,100,0,255,255,255,255,2,0,0,0,480,0,84,0,80
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,38,0,1300,598,100,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,341,0,598,100,0,255,255,255,255,2,0,0,0,-1,40,84,0,81
+#DST_IMAGE,0,300,341,0,598,100,0,0,255,255,255,2,0,0,0
+#ENDIF,

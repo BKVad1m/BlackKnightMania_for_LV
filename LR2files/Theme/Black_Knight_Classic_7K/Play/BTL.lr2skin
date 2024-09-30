@@ -42,6 +42,8 @@ Textfile
 #CUSTOMFILE,Shutter,.\LR2files\Theme\Black_Knight_Classic_7K\Play\shutter\*.png
 #CUSTOMFILE,Title Font,LR2files\Theme\Black_Knight_Classic_7K\EXfont\Title\*,title,
 #CUSTOMFILE,FULLCOMBO,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Fullcombo\*,
+#CUSTOMFILE,FC Top Layer,.\LR2files\Theme\Black_Knight_Classic_7K\Play\csv\Main\C\FC\*,
+#CUSTOMFILE,Get Ready Animation,.\LR2files\Theme\Black_Knight_Classic_7K\Play\csv\Main\C\GR\*,
 #ENDOFHEADER,,,,,,,,
 
 
