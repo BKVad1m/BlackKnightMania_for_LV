@@ -12,12 +12,12 @@
 //SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,add_x,add_y
 #SRC_GROOVEGAUGE,0,25,0,113,32,113,4,1,0,0,8,0
 //DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_GROOVEGAUGE,0,750,50,553,8,113,0,255,255,255,255,1,0,0,0,750,0,0,0,0
+#DST_GROOVEGAUGE,0,750,50,553,8,113,0,255,255,255,255,1,0,0,0,750,0,48,0,0
 #ELSE,
 //SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,add_x,add_y
 #SRC_GROOVEGAUGE,0,25,0,0,32,113,4,1,0,0,8,0
 //DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_GROOVEGAUGE,0,750,50,553,8,113,0,255,255,255,255,1,0,0,0,750,0,0,0,0
+#DST_GROOVEGAUGE,0,750,50,553,8,113,0,255,255,255,255,1,0,0,0,750,0,-48,0,0
 #ENDIF
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
 #SRC_IMAGE,0,111,0,0,1,1,1,1,0,0
