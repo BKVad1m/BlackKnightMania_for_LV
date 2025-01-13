@@ -280,17 +280,17 @@
 #DST_BAR_LAMP,5,0,-5,-5,33,50,0,200,255,255,255,2,0,0,0,0,0,0,0,0
 //EXTRAS
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
-#SRC_BAR_LAMP,7,1,569,0,66,50,2,1,100,0,0,0,0,,,,,,,
+#SRC_BAR_LAMP,9,1,569,0,66,50,2,1,100,0,0,0,0,,,,,,,
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_BAR_LAMP,9,0,-5,-5,33,50,0,200,255,255,255,2,0,0,0,0,0,0,0,0
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_BAR_LAMP,7,1,734,0,66,50,2,1,100,0,0,0,0,,,,,,,
 //DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_BAR_LAMP,7,0,-5,-5,33,50,0,200,255,255,255,2,0,0,0,0,0,0,0,0
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
-#SRC_BAR_LAMP,8,1,734,0,66,50,2,1,100,0,0,0,0,,,,,,,
+#SRC_BAR_LAMP,8,1,800,0,32,50,1,1,0,,,,,,,,,,,
 //DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_BAR_LAMP,8,0,-5,-5,33,50,0,200,255,255,255,2,0,0,0,0,0,0,0,0
-//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
-#SRC_BAR_LAMP,9,1,800,0,32,50,1,1,0,,,,,,,,,,,
-//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_BAR_LAMP,9,0,-5,-5,32,50,0,255,255,255,255,2,0,0,0,0,0,0,0,0
+#DST_BAR_LAMP,8,0,-5,-5,32,50,0,255,255,255,255,2,0,0,0,0,0,0,0,0
 
 //xxx_BAR_FLASH,,,,,,,,,,,,,,,,,,,,
 //フォーカス中のバーに重なって表示されます。バーのxy座標からの相対位置を指定して下さい。,,,,,,,,,,,,,,,,,,,,
@@ -305,3 +305,25 @@
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_BAR_LEVEL,0,0,21,8,30,24,0,255,255,255,255,0,0,0,0,500,0,0,0,0
 #DST_BAR_LEVEL,0,500,21,8,30,24,0,255,255,255,255,0,0,0,0,,,,,
+
+//BARFLASH テカリ1,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,1,0,0,18,62,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,1033,735,329,18,62,0,40,255,255,255,2,0,0,0,1033,0,0,0,0
+#DST_IMAGE,0,1050,735,329,18,62,0,60,255,255,255,2,0,0,0,,,,,
+#DST_IMAGE,0,1250,735,329,18,62,0,255,255,255,255,2,0,0,0,,,,,
+#DST_IMAGE,0,1967,735,329,18,62,0,130,255,255,255,2,0,0,0,,,,,
+#DST_IMAGE,0,3150,735,329,18,62,0,0,255,255,255,2,0,0,0,,,,,
+#DST_IMAGE,0,4017,735,329,18,62,0,0,255,255,255,2,0,0,0,,,,,
+,,,,,,,,,,,,,,,,,,,,
+//BARFLASH テカリ2,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,1,18,0,550,62,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,1050,753,329,9,62,0,60,255,255,255,2,0,0,0,1050,0,0,0,0
+#DST_IMAGE,0,1250,753,329,123,62,0,255,255,255,255,2,0,0,0,,,,,
+#DST_IMAGE,0,1967,753,329,527,62,0,130,255,255,255,2,0,0,0,,,,,
+#DST_IMAGE,0,3150,753,329,527,62,0,0,255,255,255,2,0,0,0,,,,,
+#DST_IMAGE,0,4034,753,329,527,62,0,0,255,255,255,2,0,0,0,,,,,
+,,,,,,,,,,,,,,,,,,,,
