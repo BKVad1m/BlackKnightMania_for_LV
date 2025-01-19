@@ -1491,18 +1491,18 @@
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,muki,range,type
 #SRC_IMAGE,0,0,0,553,64,64,1,1,0,0,
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_IMAGE,0,500,954,423,64,64,2,255,255,255,255,2,0,0,0,1500,0,80,0,0
-#DST_IMAGE,0,1250,954,9,64,64,0,255,255,255,255,2,0,0,0,
-#DST_IMAGE,0,1500,954,9,64,64,0,128,255,255,255,2,0,0,0,
+#DST_IMAGE,0,500,957,423,64,64,2,255,255,255,255,2,0,0,0,1500,0,80,0,0
+#DST_IMAGE,0,1250,957,9,64,64,0,255,255,255,255,2,0,0,0,
+#DST_IMAGE,0,1500,957,9,64,64,0,128,255,255,255,2,0,0,0,
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,muki,range,type
 #SRC_SLIDER,0,0,0,553,64,64,1,1,0,0,2,414,6
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_SLIDER,0,0,954,9,64,64,0,128,255,255,255,2,0,0,0,0,0,81,0,0
+#DST_SLIDER,0,0,957,9,64,64,0,128,255,255,255,2,0,0,0,0,0,81,0,0
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,muki,range,type
 #SRC_SLIDER,0,0,0,553,64,64,1,1,0,0,2,414,6
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_SLIDER,0,0,954,9,64,64,0,255,255,255,255,2,0,0,0,0,140,81,0,0
-#DST_SLIDER,0,1000,954,9,64,64,0,0,255,255,255,2,0,0,0
+#DST_SLIDER,0,0,957,9,64,64,0,255,255,255,255,2,0,0,0,0,140,81,0,0
+#DST_SLIDER,0,1000,957,9,64,64,0,0,255,255,255,2,0,0,0
 
 
 
