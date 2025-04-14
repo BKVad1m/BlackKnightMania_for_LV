@@ -1,0 +1,53 @@
+Playstyle:
+900 - Left
+901 - Right
+
+BGA Size:
+902 - Type A
+903 - Type B
+904 - Type C
+
+Score Mode:
+905 - Money
+906 - EXSCORE
+
+907-909 reserved
+
+Subtitle:
+910 - ON
+911 - OFF
+
+Bottom Right Modes:
+912 - Date/Clock
+913 - Title
+914 - Title+Artist+Genre
+915 - Title+Subtitle
+916 - Title[Sub]/Artist[sub]/Genre
+917 - DJ Player
+918 - Song Time
+
+Input mode:
+919 - Keyboard
+920 - Controller
+
+Judge Display:
+921 - ON
+922 - OFF
+
+Colored Timing:
+923 - OFF
+924 - ON
+
+Use Empty Poor Judge:
+925 - OFF
+926 - ON
+
+SP Shutter:
+927 - Always Opened
+928 - Always Closed
+929 - OFF
+
+DP Shutter:
+930 - Always Closed
+931 - Always Opened
+932 - OFF

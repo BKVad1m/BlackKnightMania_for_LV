@@ -149,7 +149,7 @@
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_IMAGE,0,750,1072,666,16,36,0,255,255,255,255,1,0,0,0,750,0,0,0,0
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta
-#SRC_NUMBER,0,0,684,856,176,36,11,1,0,0,163,0,2
+#SRC_NUMBER,0,0,684,856,176,36,11,1,0,0,1163,0,2
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_NUMBER,0,750,1088,666,16,36,0,255,255,255,255,1,0,0,0,750,0,0,0,0
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
@@ -157,7 +157,7 @@
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_IMAGE,0,750,1120,666,16,36,0,255,255,255,255,1,0,0,0,750,0,0,0,0
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta
-#SRC_NUMBER,0,0,684,856,176,36,11,1,0,0,164,0,2
+#SRC_NUMBER,0,0,684,856,176,36,11,1,0,0,1164,0,2
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_NUMBER,0,750,1136,666,16,36,0,255,255,255,255,1,0,0,0,750,0,0,0,0
 #ENDIF

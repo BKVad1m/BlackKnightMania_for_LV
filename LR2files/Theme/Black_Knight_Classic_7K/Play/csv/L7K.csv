@@ -95,7 +95,7 @@
 #IMAGE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Lanecover\*.Png,,,,,,,,,,,,,,,,,36
 #IMAGE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\ghostnumbers\*.png,,,,,,,,,,,,,,,,,37
 #IMAGE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Emblem\*.png,,,,,,,,,,,,,,,,,38
-#IMAGE,dummy,,,,,,,,,,,,,,,,,39
+#IMAGE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\NPMsg\*.png,,,,,,,,,,,,,,,,,39
 #IMAGE,dummy,,,,,,,,,,,,,,,,,40
 #IMAGE,dummy,,,,,,,,,,,,,,,,,41
 #IMAGE,dummy,,,,,,,,,,,,,,,,,42
@@ -129,7 +129,6 @@
 #INCLUDE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\csv\Main\7K\3.csv
 #INCLUDE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\csv\Main\7K\L\Keyflash.csv
 #INCLUDE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\csv\Main\L\Panels.csv
-
 #INCLUDE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\csv\Main\L\Graph.csv
 
 #INCLUDE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\csv\Main\BR.csv
@@ -139,6 +138,7 @@
 #INCLUDE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Fullcombo\*\SPL.csv,,,,,,,,,,,,,,,,,,,,
 #INCLUDE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\csv\Main\C\FC\*\Main.csv
 #INCLUDE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\csv\Main\C\GR\*\Main.csv
+//#INCLUDE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\csv\Main\L\NPMsg.csv
 
 #INCLUDE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\csv\Main\7K\L\Bomb.csv
 #INCLUDE,.\LR2files\Theme\Black_Knight_Classic_7K\Play\csv\Main\L\Judge.csv

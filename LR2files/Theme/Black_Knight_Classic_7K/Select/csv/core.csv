@@ -49,16 +49,16 @@
 #LR2FONT,LR2files\Theme\WMIX_HD\font\silver\font.lr2font,,,,,,,,,,,,,,,,,,,4
 
 
-////SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
-//#SRC_IMAGE,0,100,0,0,-1,-1,1,1,0,0
-////DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-//#DST_IMAGE,0,0,0,0,1280,720,0,0,255,255,255,1,0,0,0,250,11,0,0,0
-//#DST_IMAGE,0,250,0,0,1280,720,0,255,255,255,255,1,0,0,0
+
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
 #SRC_IMAGE,0,9,0,0,-1,-1,1,1,0,0
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_IMAGE,0,0,0,0,1280,720,0,255,255,255,255,1,1,0,0,0,0,0,0,0
-
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,100,0,0,-1,-1,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,0,0,1280,720,0,0,255,255,255,1,0,0,0,250,11,0,0,0
+#DST_IMAGE,0,250,0,0,1280,720,0,255,255,255,255,1,0,0,0
 
 
 
