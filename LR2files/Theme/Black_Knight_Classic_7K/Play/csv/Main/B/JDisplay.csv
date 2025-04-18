@@ -1,5 +1,5 @@
 //Judge Display
-#IF,921,
+#IF,922,
 #ELSE
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
 #SRC_IMAGE,0,0,1737,0,78,122,1,1,0,0

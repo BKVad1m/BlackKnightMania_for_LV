@@ -1,0 +1,3236 @@
+﻿▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒ DST options ▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+0 always true
+1 The selection bar is a folder
+2 The selected bar indicates a song
+3 The selected bar is the course
+4 Selected bar indicates new course creation
+5 Selected bar can be played (true for songs, courses, etc.)
+
+10 true if double or double battle
+11 true if battle
+12 true if double or battle or double battle
+13 true if ghost battle or battle
+
+20 Panel not activated
+21 Panel 1 startup
+22 Panel 2 startup
+23 Panel 3 startup
+24 Panel 4 startup
+25 Panel 5 startup
+26 Panel 6 startup
+27 Panel 7 startup
+28 Panel 8 startup
+29 Panel 9 startup
+
+30 BGA normal
+31 BGA extend
+32 autoplay off
+33 auto play on
+34 ghost off
+35 ghost typeA
+36 ghost type B
+37 ghost type C
+38 scoregraph off
+39 scoregraph on
+40 BGA off
+41 BGA on
+
+42 1P side is normal gauge
+43 Red gauge on 1P side
+44 2P side is normal gauge
+45 Red gauge on 2P side
+48 New: 1P gauge is exhard / death
+49 New: 2P gauge is exhard / death
+
+46 Difficulty filter enabled
+47 Difficulty filter disabled
+
+50 offline
+51 online
+
+52 EXTRA MODE OFF
+53 EXTRA MODE ON
+
+54 AUTOSCRATCH 1P OFF
+55 AUTOSCRATCH 1P ON
+56 AUTOSCRATCH 2P OFF
+57 AUTOSCRATCH 2P ON
+60 Score cannot be saved
+61 Score can be saved
+62 Unable to clear save
+63 EASY Gauge ("Easy and save" in the specifications)
+64 NORMAL Gauge ("Save with Normal" in the specifications)
+65 HARD/G-ATTACK Gauge ("Save with Hard" in the specifications)
+66 DEATH/P-ATTACK gauge ("Full control only" in the specifications)
+
+70 The level of beginner in the same folder does not exceed the specified value (5/10keys is LV9, 7/14keys is LV12, 9keys is within LV42)
+71 normal
+72 hyper
+73 another
+74 insane
+75 The level of beginner in the same folder exceeds the specified value
+76 normal
+77 hyper
+78 another
+79 insane
+
+
+80 Load incomplete
+81 Load complete
+
+82 Replay Off
+83 Recording replay
+84 Playing replay
+
+90 Liza Clear
+91 Liza Miss
+
+
+
+///////////////////////////////////
+// for selection list
+// Clear types
+100 NOT PLAYED
+101 FAILED
+102 EASY [Extended LV EASY/ASSISTED EASY]
+103 NORMAL 
+104 HARD [Extended LV HARD/EXHARD]
+105 FULL COMBO [Extended LV FULL COMBO/PERFECT/MAX]
+106 EXHARD
+107 PERFECT
+108 MAX
+109 ASSISTED EASY
+// DJ level
+110 AAA 8/9
+111 AA 7/9
+112 A 6/9
+113 B 5/9
+114 C 4/9
+115 D 3/9
+116 E 2/9
+117 F 1/9
+
+//cleared option flag (gauge)
+118 GROOVE
+119 SURVIVAL
+120 SUDDEN DEATH
+121 EASY
+122 PERFECT ATTACK
+123 GOOD ATTACK
+124 undecided
+125 undecided
+
+//cleared option flag (random)
+126 Regular
+127 MIRROR
+128 RANDOM
+129 S-RANDOM
+130 SCATTER
+131 CONVERGE
+132 undecided
+133 undecided
+
+//cleared option flag (effect)
+134 None
+135 HIDDEN
+136 SUDDEN
+137 HID+SUD
+138 undecided
+139 undecided
+140 undecided
+141 undecided
+
+// other option flags
+142 AUTO SCRATCH
+143 EXTRA MODE
+144 DOUBLE BATTLE
+145 SP TO DP (Maybe it will be shared with DP TO SP and 9 TO 7 in the future.
+
+146 EASY
+147 HARD
+148 FULLCOMBO
+
+150 difficulty0 (not set)
+151 difficulty1 (easy)
+152 difficulty2 (normal)
+153 difficulty3 (hyper)
+154 difficulty 4 (another)
+155 difficulty 5 (insane)
+
+//original data
+160 7keys
+161 5keys
+162 14 keys
+163 10keys
+164 9 keys
+
+// Final number of keys after applying all options
+//165 7keys
+//166 5keys
+//167 14keys
+//168 10keys
+//169 9keys
+
+
+
+170 without BGA
+171 with BGA
+
+172 No Long Note
+173 with long notes
+
+174 no attached text
+175 with attached text
+
+176 BPM no change
+177 BPM with change
+
+178 No random command
+179 With random command
+
+180 Judgment very hard
+181 judgment hard
+182 Judgment normal
+183 Judgment easy
+184 Judgment very easy
+
+185 levels are within the specified value (5/10keys within LV9, 7/14keys within LV12, 9keys within LV42)
+186 level exceeds the specified value
+
+190 No STAGEFILE
+191 with STAGE FILE
+
+192 No BANNER
+193 with BANNER
+
+194 without BACKBMP
+195 with BACKBMP
+
+196 no replay
+197 with replay
+
+
+
+
+///////////////////////////////////
+// playing
+200 1PAAA
+201 1P AA
+202 1P A
+203 1P B
+204 1PC
+205 1PD
+206 1P E
+207 1P F
+
+210 2PAAA
+211 2P AA
+212 2P A
+213 2P B
+214 2PC
+215 2PD
+216 2P E
+217 2P F
+
+220 AAA confirmed
+221 AA confirmed
+222 A confirmed
+223 B confirmed
+224 C confirmed
+225 D confirmed
+226 E confirmed
+227 F confirmed
+
+230 1P 0-10%
+231 1P 10-19%
+232 1P 20-29%
+233 1P 30-39%
+234 1P 40-49%
+235 1P 50-59%
+236 1P 60-69%
+237 1P 70-79%
+238 1P 80-89%
+239 1P 90-99%
+240 1P 100%
+
+241 1P PERFECT
+242 1P GREAT
+243 1P GOOD
+244 1P BAD
+245 1P POOR
+246 1P empty POOR
+
+// For neon on the left and right of the official half skin 2P side also
+247 1P POORBGA out of hours
+248 1P POORBGA display time
+
+250 2P 0-10%
+251 2P 10-19%
+252 2P 20-29%
+253 2P 30-39%
+254 2P 40-49%
+255 2P 50-59%
+256 2P 60-
+69%
+257 2P 70-79%
+258 2P 80-89%
+259 2P 90-99%
+260 2P 100%
+
+261 2P PERFECT
+262 2P GREAT
+263 2P GOOD
+264 2P BAD
+265 2P POOR
+266 2P empty POOR
+
+267 2P POORBGA out of display time
+268 2P POORBGA display time
+
+270 1P SUD+ being changed
+271 2P SUD+ Changing
+272 [LV] 1P Adjusting Hi-speed
+273 [LV] 2P Adjusting Hi-speed
+274 [LV] 1P uses SUD+
+275 [LV] 2P uses SUD+
+276 [LV] 1P uses HID+ / LIFT
+277 [LV] 2P uses HID+ / LIFT
+
+280 Course Stage 1
+281 Course Stage 2
+282 Course Stage 3
+283 Course Stage 4
+289 Course Stage FINAL
+(Caution For example, if STAGE3 is the final stage, stage FINAL will be given priority, 283 on, 282 off.)
+(It is not currently implemented, but in preparation for future expansion, it may be better to create images of STAGE5-9 corresponding to 284-288 in advance.)
+
+290 courses
+291 Nonstop
+292 Expert
+293 rank certification
+
+////////////////////////////////////
+// Liza
+
+300 1PAAA
+301 1P AA
+302 1P A
+303 1P B
+304 1PC
+305 1P D
+306 1P E
+307 1P F
+308 1P 0
+
+310 2PAAA
+311 2P AA
+312 2P A
+313 2P B
+314 2PC
+315 2PD
+316 2P E
+317 2P F
+318 2P 0
+
+320 before update AAA
+321 before update AA
+322 before update A
+323 before update B
+324 before update C
+325 before update D
+326 before update E
+327 before update F
+
+330 score updated
+331 MAXCOMBO UPDATED
+332 Min B+P updated
+333 trial renewed
+334 IR standings updated
+335 score rank updated
+
+340 AAA after renewal
+341 After update AA
+342 After update A
+343 After update B
+344 after update C
+345 After update D
+346 E after update
+347 F after update
+
+350 Result flip disabled (play skin without #FLIPRESULT command, or after #DISABLEFLIP command
+351 Result flip enabled (with #FLIPRESULT command in play skin
+352 1PWIN 2PLOSE
+353 1PLOSE 2PWIN
+354 DRAW
+
+/////////////////////////////////////
+// key config
+
+400 7/14 KEYS
+401 9 KEYS
+402 5/10 KEYS
+
+
+/////////////////////////////////////
+//others
+500 Beginner music does not exist in the same folder
+501 Normal score does not exist in the same folder
+502 Hyper music does not exist in the same folder
+503 Another score does not exist in the same folder
+504 Insane music does not exist in the same folder
+
+505 Beginner music exists in the same folder
+506 Normal music exists in the same folder
+507 Hyper music exists in the same folder
+508 Another score exists in the same folder
+509 There is an insane score in the same folder
+
+
+510 There is one beginner score in the same folder
+511 There is one normal score in the same folder
+512 There is one hyper map in the same folder
+513 There is another score in the same folder
+514 There is one nsane map in the same folder
+
+515 There are multiple beginner charts in the same folder
+516 Multiple normal scores exist in the same folder
+517 Multiple hyper charts exist in the same folder
+518 There are multiple other musical scores in the same folder
+519 Multiple nsane charts exist in the same folder
+
+520 level bar beginner no play
+521 level bar beginner failed
+522 level bar beginner easy
+523 level bar beginner clear
+524 level bar beginner hardclear
+525 level bar beginner fullcombo
+
+530 level bar normal no play
+531 level bar normal failed
+532 level bar normal easy
+533 level bar normal clear
+534 level bar normal hardclear
+535 level bar normal fullcombo
+
+540 level bar hyper no play
+541 level bar hyper failed
+542 level bar hyper easy
+543 level bar hyper clear
+544 level bar hyper hardclear
+545 level bar hyper fullcombo
+
+550 level bar another no play
+551 Level bar another failed
+552 level bar another easy
+553 Level bar another clear
+554 level bar another hardclear
+555 level bar another fullcombo
+
+560 level bar insane no play
+561 level bar insane failed
+562 level bar insane easy
+563 level bar insane clear
+564 level bar insane hardclear
+565 level bar insane fullcombo
+
+
+///////////////////////////////////////
+// Course selection related
+
+580 course stage number 1 or more
+581 course stage number 2 or more
+582 course stages 3 or more
+583 course stage number 4 or more
+584 course stage number 5 or more
+585 course stages 6 or more
+586 course stage number 7 or more
+587 course stage number 8 or more
+588 course stages 9 or more
+589 courses with more than 10 stages
+590 Course Select stage1 selected
+591 Course Select Selecting stage2
+592 Course Select Stage3 Selected
+593 Course Select Selecting stage4
+594 Course Select Stage5 Selected
+595 Course Select Stage 6 selected
+596 Course Select Stage 7 selected
+597 Course Select Stage8 selected
+598 Course Select Stage 9 Selected
+599 Course Select Stage 10 Selected
+
+571 Course selection in progress
+572 Not in Course Select
+
+//Course stage1
+700 course stage1 difficulty undefined
+701 course stage1 difficulty1
+702 course stage1 difficulty2
+703 course stage1 difficulty3
+704 course stage1 difficulty4
+705 course stage1 difficulty5
+
+//Course stage2
+710 Course stage2 difficulty undefined
+711 course stage2 difficulty1
+712 course stage2 difficulty2
+713 course stage2 difficulty3
+714 course stage2 difficulty4
+715 course stage2 difficulty5
+
+//Course stage3
+720 course stage3 difficulty undefined
+721 course stage3 difficulty1
+722 course stage3 difficulty2
+723 course stage3 difficulty3
+724 course stage3 difficulty4
+725 course stage3 difficulty5
+
+//Course stage4
+730 course stage4 difficulty undefined
+731 course stage4 difficulty1
+732 course stage4 difficulty2
+733 course stage4 difficulty3
+734 course stage4 difficulty4
+735 course stage4 difficulty5
+
+//Course stage5
+740 course stage5 difficulty undefined
+741 course stage5 difficulty1
+742 course stage5 difficulty2
+743 course stage5 difficulty3
+744 course stage5 difficulty4
+745 course stage5 difficulty5
+
+
+/////////////////////////////////////
+//LR2IR related
+Not subject to 600 IR
+601 IR Loading
+602 IR read complete
+603 without IR player
+604 IR connection failed
+605 ban songs
+606 Waiting for IR update
+607 IR Accessing
+608 IR Busy
+
+
+620 Not in Ranking Display
+621 Displaying Ranking
+
+622 Not a ghost battle
+623 Ghost battle in progress (only between final stage and result)
+624 It is not a situation to compare your score with your opponent's score (currently, ranking display and rival folder)
+625 I am in a situation where I should compare my score with that of my opponent
+
+
+
+
+640 NOT PLAYED
+641 FAILED
+642 EASY CLEARED
+643 NORMAL CLEARED
+644 HARD CLEARED
+645 FULL COMBO
+
+650 AAA 8/9
+651AA 7/9
+652 A 6/9
+653 B 5/9
+654 C 4/9
+655 D 3/9
+656 E 2/9
+657 F 1/9
+
+/////////////////////////////////////
+800 1P Lanecover enabled
+801 1P Lock note speed enabled
+810 2P Lanecover enabled
+811 2P Lock note speed enabled
+
+/////////////////////////////////////
+// 900-998
+Used for user-defined configs for skin customization
+/////////////////////////////////////
+999 always false
+
+/////////////////////////////////////
+// ARENA
+1000	ARENA Online	
+1001	ARENA P1 present	
+1002	ARENA P2 present	
+1003	ARENA P3 present	
+1004	ARENA P4 present	
+1005	ARENA P5 present	
+1006	ARENA P6 present	
+1007	ARENA P7 present	
+1008	ARENA P8 present	
+1010	ARENA: P1 Rank AAA	
+1011	ARENA: P1 Rank AA	
+1012	ARENA: P1 Rank A	
+1013	ARENA: P1 Rank B	
+1014	ARENA: P1 Rank C	
+1015	ARENA: P1 Rank D	
+1016	ARENA: P1 Rank E	
+1017	ARENA: P1 Rank F	
+1021	ARENA: P1 Rank Border AAA	
+1022	ARENA: P1 Rank Border AA	
+1023	ARENA: P1 Rank Border A	
+1024	ARENA: P1 Rank Border B	
+1025	ARENA: P1 Rank Border C	
+1026	ARENA: P1 Rank Border D	
+1027	ARENA: P1 Rank Border E	
+1028	ARENA: P1 Rank Border F	
+1030	ARENA: P1 Gauge 0-9%	
+1031	ARENA: P1 Gauge 10-19%	
+1032	ARENA: P1 Gauge 20-29%	
+1033	ARENA: P1 Gauge 30-39%	
+1034	ARENA: P1 Gauge 40-49%	
+1035	ARENA: P1 Gauge 50-59%	
+1036	ARENA: P1 Gauge 60-69%	
+1037	ARENA: P1 Gauge 70-79%	
+1038	ARENA: P1 Gauge 80-89%	
+1039	ARENA: P1 Gauge 90-99%	
+1040	ARENA: P1 Gauge 100%	
+1041	ARENA: P1 FAILED	
+1042	ARENA: P1 EASY	
+1043	ARENA: P1 GROOVE	
+1044	ARENA: P1 HARD	
+1045	ARENA: P1 FULLCOMBO	
+1046	ARENA: P1 EX-HARD	
+1047	ARENA: P1 ASSIST-EASY	
+1048-1049	ARENA: P1 Reserved	
+1050-1089	ARENA: P2	
+1110-1049	ARENA: P3	
+1150-1189	ARENA: P4	
+1210-1249	ARENA: P5	
+1250-1289	ARENA: P6	
+1310-1349	ARENA: P7	
+1350-1389	ARENA: P8	
+1400	ARENA: Player Ready	
+1401	ARENA: P1 Ready	
+1402	ARENA: P2 Ready	
+1403	ARENA: P3 Ready	
+1404	ARENA: P4 Ready	
+1405	ARENA: P5 Ready	
+1406	ARENA: P6 Ready	
+1407	ARENA: P7 Ready	
+1408	ARENA: P8 Ready
+
+9999 always true for Lunatic Vibes
+
+▒▒▒▒▒▒▒▒▒▒
+▒ Number ▒
+▒▒▒▒▒▒▒▒▒▒
+
+// play options
+
+10 HS-1P
+11 HS-2P
+
+12 JUDGE TIMING
+13 DEFAULT TARGET RATE
+
+14 SUD+ / 1P
+15 SUD+ / 2P
+
+
+//something
+20 fps
+21 years
+22 months
+23 days
+24 hours
+25 minutes
+26 seconds
+
+// player status
+
+30 TOTAL PLAY COUNT
+31 TOTAL CLEAR COUNT
+32 TOTAL FAIL COUNT
+
+33 TOTAL PERFECT
+34 TOTAL GREAT
+35 TOTAL GOOD
+36 TOTAL BAD
+37 TOTAL POOR
+
+38 RUNNING COMBO
+39 RUNNING COMBO (MAX)
+40 TRIAL LEVEL
+41 TRIAL LEVEL-1 (may be used for update display)
+
+
+45 Song level of the beginner sheet music in the same folder
+46 Song level of normal score in the same folder
+47 Song level of hyper sheet music in the same folder
+48 Song level of another score in the same folder
+49 Song level of insane score in the same folder
+
+
+// effector
+50 EQ0
+51 EQ1
+52 EQ2
+53 EQ3
+54 EQ4
+55 EQ5
+56 EQ6
+
+57 MASTER VOLUME
+58 KEY VOLUME
+59 BGM VOLUME
+
+60 FX0 P1
+61 FX0 P2
+62 FX1 P1
+63 FX1 P2
+64 FX2 P1
+65 FX2 P2
+
+66 PITCH
+
+// when selecting songs
+70 score
+71 exscore
+72 exscore theoretical value
+73 rates
+74 total notes
+75 max combo
+76 min b+p
+77 play count
+78 clear
+79 fail
+//
+80 perfect
+81 great
+82 good
+83 bad
+84 poor
+85 perfect %
+86 great %
+87 good %
+88 bad %
+89 poor %
+
+90 bpm max
+91 bpm min
+
+92 IR rank
+93 IR total player
+94 IR clear rate
+
+95 Differences with IR Competitors
+
+
+
+// when playing bms
+
+//1P
+100 score
+101 exscore
+102 rates
+103 rate (two decimal places)
+104 nowcombo
+105 max combo
+106 total notes
+107 groove gauge
+108 difference from exscore2p
+109 LV: DJ Next
+110 perfect
+111 great
+112 good
+113 bad
+114 poor
+115 total rate
+116 total rate (two decimal places)
+
+// opponent or ghost
+120 score
+121 exscore
+122 rate
+123 rate (two decimal places)
+124 nowcombo
+125 max combo
+126 total notes
+127 groove gauge
+128 difference from exscore2p
+130 perfect
+131 great
+132 good
+133 bad
+134 poor
+135 total rate
+136 total rate (two decimal places)
+
+// 120-139 are indeterminate whether they are high scores or ghosts depending on the setting, so when specifying and displaying them on the score graph
+// #DISABLEFLIP required when used in results
+150 Current high score
+151 Target current value
+152 difference between high score and 1p score
+153 Difference between target and 1p score
+154 difference from next rank
+155 high score rate
+156 high score rate 2 decimal places
+157 target rate
+158 target rate 2 decimal places
+
+
+
+
+// BMS state
+160bpm
+161 minutes
+162 seconds
+163 minutes remaining
+164 seconds remaining
+165 Load status (%)
+
+// For Liza's high score display
+170 Before EXSCORE update
+171 EXSCORE this time
+172 EXSCORE difference
+
+173 Before MAXCOMBO update
+174 MAXCOMBO this time
+175 MAXCOMBO Diff
+
+176 before minimum BP update
+177 After min BP update
+178 Minimum BP Difference
+
+179 IR rank
+180 IR total player
+181 IR clear rate
+182 IR rank (before update)
+
+183 Before rate update
+184 Before rate update (two decimal places)
+
+
+
+
+201	1P Extended F/S (ms)	
+210	1P F/S (1:FAST 2:SLOW)	
+211	2P F/S (1:FAST 2:SLOW)	
+212	FAST COUNT	
+213	2P Extended F/S (ms)	
+214	SLOW COUNT	
+216	COMBO BREAK	
+217	REMAIN NOTES	
+218	RUNNING NOTES
+
+220 Remaining time until IR auto update
+
+250 course level stage1
+251 stage2
+252 stage3
+253 stage 4
+254 stage5
+
+
+// song selection rival
+270 score
+271 exscore
+272 exscore theoretical value
+273 rates
+274 total notes
+275 maxcombo
+276 min b+p
+277 play count
+278 clear
+279 fail
+//
+280 perfect
+281 great
+282 good
+283 bad
+284 poor
+285 perfect %
+286 great %
+287 good %
+288 bad %
+289 poor %
+
+290 bpm max
+291 bpm min
+
+292 IR rank
+293 IR totalplayer
+294 IR clearrate
+
+296 Mean
+297 Mean (2 decimal places)
+298 Standard Deviation
+299 Standard Deviation (2 decimal places)
+
+
+
+301	BMS #TOTAL	 
+302	GREEN NUMBER 
+303	WHITE NUMBER 
+304	GREEN NUMBER (MIXBPM)
+305	GREEN NUMBER (MAXBPM)
+380	1P Scratch Axis Value	Keyconfig skin only
+381	2P Scratch Axis Value	Keyconfig skin only
+
+407 1P Groove Gauge after dot
+
+450	ARENA: Exscore difference to Top	
+500	ARENA: P1 Score	
+501	ARENA: P1 EXSCORE	
+502	ARENA: P1 Combo	
+503	ARENA: P1 Max Combo	
+504	ARENA: P1 Rate Integer part	
+505	ARENA: P1 Rate 2 decimal places	
+506	ARENA: P1 Total notes	
+507	ARENA: P1 Total Rate Integer part	
+508	ARENA: P1 Total Rate 2 decimal places	
+509	ARENA: P1 PGREAT	
+510	ARENA: P1 GREAT	
+511	ARENA: P1 GOOD	
+512	ARENA: P1 BAD	
+513	ARENA: P1 POOR	
+514	ARENA: P1 空POOR	
+515	ARENA: P1 MISS	
+516	ARENA: P1 BP	
+517	ARENA: P1 Combo Break	
+518	ARENA: P1 Gauge%	
+519	ARENA: P1 exscore difference to Next rank	
+520	ARENA: P1 player exscore difference to P1	
+521-529	ARENA: P1 Reserved	
+530-559	ARENA: P2	
+560-589	ARENA: P3	
+590-619	ARENA: P4	
+620-659	ARENA: P5	
+650-679	ARENA: P6	
+680-709	ARENA: P7	
+710-739	ARENA: P8
+
+1000 Update
+1001 Input
+
+▒▒▒▒▒▒▒▒▒▒
+▒ Button ▒
+▒▒▒▒▒▒▒▒▒▒
+
+///////////////////////////////////
+// panel launch button
+Click to launch the panel.
+Exit the panel by right clicking or clicking the same button on the panel.
+
+1 panel 1 state
+off/on
+2 panel 2 state
+off/on
+3 panel 3 state
+off/on
+4 panel 4 state
+off/on
+5 panel 5 state
+off/on
+6 panels 6 states
+off/on
+7 panel 7 state
+off/on
+8 panels 8 states
+off/on
+9 panel 9 state
+off/on
+
+///////////////////////////////////
+// song list display options
+
+10 Current score difficulty filter (overall)
+off/easy/normal/hard/expert/crazy
+11 Current Key Count Filter (Overall)
+off/5keys priority/7keys priority/10keys priority/14keys priority/9keys
+12 current sort
+off/level/title/clear
+
+///////////////////////////////////
+
+13 Start key configuration
+function only
+
+14 Activate Skin Select
+function only
+
+15 Start playing
+function only
+
+16 Start auto play
+function only
+
+17 Start text view
+function only
+
+18 Tag Reset
+function only
+
+19 Start Replay
+function only
+
+
+///////////////////////////////////
+// FX options
+
+20 FX0 FX name
+21 FX1 FX name
+22 FX2 FX name
+OFF/REVERB/DELAY/LOWPASS/HIGHPASS/FLANGER/CHORUS/DISTORTION/PITCH
+
+23 FX0
+OFF/ON
+24 FX1
+OFF/ON
+25 FX2
+OFF/ON
+
+26 FX0 TARGET
+MASTER/KEY/BGM
+27 FX1 TARGET
+MASTER/KEY/BGM
+28 FX2 TARGET
+MASTER/KEY/BGM
+
+// EQ button still pending
+29 EQs
+OFF/ON
+30 EQ PRESET
+USER/FLAT/ROCK/TECHNO/DANCE/JAZZ/CLASSIC
+
+31 VOLUME CONTROL
+OFF/ON
+
+32 Pitches
+OFF/ON
+
+33 PITCH TYPE
+FREQENCY/PITCH/SPEED
+
+
+///////////////////////////////////
+// play options
+
+40 gauge 1P
+41 Gauge 2P
+GROOVE/HARD/DEATH/EASY/G-ATTACK/P-ATTACK/EX-HARD/ASSIST-EASY
+
+42 Random 1P
+43 Random 2P
+OFF/MIRROR/RANDOM/S-RANDOM/H-RANDOM/ALL SCRATCH/R-RANDOM/SYN-RANDOM/SYM-RANDOM
+
+44 Assist 1P
+45 Assist 2P
+OFF/AUTOSCRATCH
+
+46 shutter
+
+
+48 reservation
+49 reservation
+
+
+50 Effect 1P
+51 Effect 2P
+OFF/HIDDEN/SUDDEN/HID+SUD/LIFT/LIFT+SUD
+
+52 reservation
+53 reservation
+
+
+54 DP FLIP
+OFF/ON
+
+55 HS-FIX
+OFF/MAX BPM/MIN BPM/AVERAGE/CONSTANT
+
+56 BATTLE
+OFF/BATTLE(VS HUMAN)/BATTLE(VS GHOST)/DOUBLE BATTLE/ONLINE BATTLE
+
+57 HS-1P
+58 HS-2P
+(Numerical change function only)
+
+
+
+70 SCOREGRAPH
+off/on
+
+71 GHOST POSITIONS
+off/a/b/c
+
+72 BGA
+off/on/autoplay only
+
+73 BGA SIZE
+normal/extend
+
+74 JUDGE TIMING
+(Numerical change function only)
+
+75 JUDGE TIMING AUTO ADJUST
+off/on
+
+76 DEFAULT TARGET RATE
+(Numerical change function only)
+77 TARGET
+(Numerical change function only)
+
+
+
+
+///////////////////////////////////
+// other options
+
+80 SCREEN MODE
+full/window
+
+81 COLOR MODE
+32bit/16bit
+
+82 VSYNC
+off/on
+
+83 SAVE REPLAY
+off/always save/highscore only
+
+90 Add to Favorites/Add to Ignore List/Remove
+off/favorite/ignore
+
+///////////////////////////////////
+//By song selection difficulty
+Specify difficulty directly
+
+91 all
+92 beginner
+93 normal
+94 hyper
+95 another
+96 insane
+
+
+
+
+///////////////////////////////////
+// for key config
+
+101 1P 1
+off/on
+102 1P 2
+off/on
+103 1P 3
+off/on
+104 1P 4
+off/on
+105 1P5
+off/on
+106 1P 6
+off/on
+107 1P 7
+off/on
+108 1P 8 (9 keys only)
+off/on
+109 1P 9 (9 keys only)
+off/on
+
+110 1P SC LEFT
+off/on
+111 1P SC RIGHT
+off/on
+112 1P START
+off/on
+113 1P SELECT
+off/on
+
+121 2P 1
+off/on
+122 2P 2
+off/on
+123 2P 3
+off/on
+124 2P 4
+off/on
+125 2P 5
+off/on
+126 2P 6
+off/on
+127 2P 7
+off/on
+128 2P 8 (9 keys only)
+off/on
+129 2P 9 (9 keys only)
+off/on
+
+130 2P SC LEFT
+off/on
+131 2P SC RIGHT
+off/on
+132 2P START
+off/on
+133 2P SELECT
+off/on
+
+140 Keyboard change button (for 7 keys)
+none/1P1/1P2/1P3/1P4/1P5/1P6/1P7/1PLEFT/1PRIGHT/1PSTART/1PSELECT/2P1/2P2/2P3/2P4/2P5/2P6/2P7/2PLEFT/2PRIGHT/2PSTART/2PSELECT
+141 Keyboard change button (for 9 keys)
+none/1/2/3/4/5/6/7/8/9/START/SELECT
+
+142 Keyboard change button (for 5 keys)
+none/1P1/1P2/1P3/1P4/1P5/1PLEFT/1PRIGHT/1PSTART/1PSELECT/2P1/2P2/2P3/2P4/2P5/2PLEFT/2PRIGHT/2PSTART/2PSELECT
+
+143 7 key → 9 key → 5 key button
+#7/9/5
+
+
+150 KEYCONFIG SLOT#0
+off/on
+151 KEYCONFIG SLOT#1
+off/on
+152 KEYCONFIG SLOT#2
+off/on
+153 KEYCONFIG SLOT#3
+off/on
+154 KEYCONFIG SLOT#4
+off/on
+155 KEYCONFIG SLOT #5
+off/on
+156 KEYCONFIG SLOT #6
+off/on
+157 KEYCONFIG SLOT #7
+off/on
+
+
+170 SKINSELECT 7KEYS
+off/on
+171 SKINSELECT 5KEYS
+off/on
+172 SKINSELECT 14KEYS
+off/on
+173 SKINSELECT 10KEYS
+off/on
+174 SKINSELECT 9KEYS
+off/on
+175 SKINSELECT SELECT
+off/on
+176 SKINSELECT DECIDE
+off/on
+177 SKINSELECT RESULT
+off/on
+178 SKINSELECT KEYCONFIG
+off/on
+179 SKINSELECT SKINSELECT
+off/on
+180 SKIN SELECT SOUNDSET
+off/on
+181 SKIN SELECT THEME
+off/on
+182 SKIN SELECT BATTLE 7
+off/on
+183 SKIN SELECT BATTLE 5
+off/on
+184 SKIN SELECT BATTLE 9
+off/on
+185 SKIN SELECT COURSE RESULT
+off/on
+
+190 SKINSELECT Skin switching button
+(function only)
+
+200-209
+Help file display button
+The help body must be defined in advance with #HELPFILE.
+200 help 1 startup
+201 Start Help 2
+202 Help 3 startup
+203 Help 4 Launch
+204 help 5 startup
+205 Help 6 Launch
+206 Help 7 startup
+207 help 8 startup
+208 help 9 startup
+209 Help 10 Launch
+
+210 IR page connection button
+Open the IR page in your browser. Full screen will change to windowed mode.
+
+220-229
+Skin customization switch button
+220 Skin Customization/Item 1 Toggle
+221 Skin customization/Item 2 switching
+222 Skin customization/Item 3 switching
+223 Skin customization/Item 4 switching
+224 Skin customization/Item 5 switching
+225 Skin Customization/Switch Item 6
+226 Skin Customization/Switch Item 7
+227 Skin customization/Item 8 switching
+228 Skin customization/Item 9 switching
+229 Skin Customization/Switch 10 Items
+
+230 course selection decision
+231 Course select Cancel
+232 Course view Course editing start
+233 Course view Delete course
+
+250 course option change with or without soflan
+251 Course option Change course gauge
+252 Course option Option enable/disable change
+253 Course option IR enable/disable change
+
+260 random course option optimal level change
+261 Random Course Option Level Upper Limit Change
+262 Random Course Option Lower Level Change
+263 Random course option Change bpm fluctuation range
+264 random course option bpm upper limit change
+265 random course option change bpm lower limit
+266 Random course option change number of stages
+
+268 Whole course option Change default connection type
+269 Overall course option Change default gauge
+
+▒▒▒▒▒▒▒▒
+▒ Text ▒
+▒▒▒▒▒▒▒▒
+
+1 Target/opponent name, current rival name in rival mode during song selection, current cursor in ranking mode
+2 your name
+
+10 Current song title
+11 Current song subtitle
+12 Current song title + subtitle
+13 Current song genre
+14 current song artist
+15 sub-artists of the current song
+16 Current song search tags
+17 Play level number of the current song
+18 Difficulty category value of the current song
+
+
+For editing use:
+20 Current song title
+21 Current song subtitle
+
+23 Current song genre
+24 current song artist
+25 sub-artists of the current song
+26 Current song search tag
+27 Play level number of the current song
+28 Difficulty category value of the current song
+29 Madness level number of the current song
+30 search/jukebox name if not searched
+
+// for key config
+40 slot 0
+41 Slot 1
+42 slot 2
+43 slot 3
+44 Slot 4
+45 Slot 5
+46 slot 6
+47 slot 7
+
+// for skin select
+50 skin names
+51 Skin creator name
+
+
+// option related
+// Option item notation can be changed
+
+60 Play Mode #MODE, ALL KEYS, SINGLE, 7 KEYS, 5 KEYS, DOUBLE, 14 KEYS, 10 KEYS, 9 KEYS,
+61 Sort #SORT,OFF,TITLE,LEVEL,FOLDER,CLEAR,RANK,
+62 Difficulty #DIFFICULTY, ALL, EASY, STANDARD, HARD,
+EXPERT, ULTIMATE,
+
+
+63 Random 1P
+64 Random 2P
+65 Gauge 1P
+66 Gauge 2P
+67 Assist 1P
+68 Assist 2P
+69 Battle
+70 flips
+71 Score Graph
+72 Ghost
+73 shutter
+74 scroll type
+
+75 BGA size
+76 BGA Drawing
+
+77 screen colors
+78 vsync
+79 screen mode
+
+80 Judge automatic adjustment
+81 Replay save method
+
+82 trial line 1
+83 trial line 2
+
+84 Effect 1P
+85 Effects 2P
+
+
+
+100-109 Skin customization category name
+100 skin customization category name 1st
+101 Skin Customization Category Name 2nd
+102 Skin Customization/Category Name 3rd
+103 Skin Customization/Category Name 4th
+104 Skin Customization Category Name 5th
+105 Skin Customization Category Name 6th
+106 Skin Customization Category Name 7th
+107 Skin Customization Category Name 8th
+108 Skin Customization Category Name 9th
+109 Skin customization 10th category name
+
+110-119 Skin customization item name
+110 Skin customization・Item name 1st item
+111 Skin customization・Second item name
+112 Skin customization・Item name 3rd
+113 Skin customization・Item name 4th
+114 Skin customization・5th item name
+115 Skin Customization 6th item name
+116 Skin customization・Item name 7th
+117 Skin customization・Item name 8th
+118 Skin Customization/Item Name 9th
+119 Skin Customization 10th item name
+
+120-129 Ranking Table Player Name
+120 Ranking table 1st player name
+121 Ranking table 2nd player name
+122 Ranking table 3rd player name
+123 Ranking table 4th player name
+124 Ranking table 5th player name
+125 Ranking table 6th player name
+126 Ranking table 7th player name
+127 Ranking table 8th player name
+128 Ranking table 9th player name
+129 Ranking table 10th player name
+
+130-131 clear string (provisional)
+130:
+131:
+150 course editor and course view song titles per stage
+150 course song title 1 stage
+151 Course song title 2 stage
+152 Course song title 3 stage
+153 Course song title 4 stage
+154 Course song title 5 stage
+155 course song title 6 stage
+156 Course song title 7 stage
+157 course song title 8 stage
+158 Course song title 9 stage
+159 Course song title 10 stage
+
+160 course editor and course view song subtitles per stage
+160 course song subtitle 1 stage
+161 course song subtitle 2 stage
+162 course song subtitle 3 stage
+163 Course Song Subtitle 4stage
+164 course song subtitle 5 stage
+165 course song subtitle 6 stage
+166 course song subtitle 7 stage
+167 course song subtitle 8 stage
+168 course song subtitle 9 stage
+169 course song subtitle 10 stage
+
+170 Course Editor and Course View Course Name (both editable)
+
+171 Course option Connection mode stage1-2
+172 Course option Connection mode stage2-3
+173 Course option Connection mode stage3-4
+174 Course option Connection mode stage4-5
+175 Course option Connection mode stage5-6
+176 Course option Connection mode stage6-7
+177 Course option Connection mode stage7-8
+178 Course option Connection mode stage8-9
+179 Course option Connection mode stage9-10
+
+
+
+180 Course Option Soflan
+181 course option gauge type
+182 Course option Option prohibited
+183 course option IR
+
+
+190 random course option optimal level
+
+191 Random course option level upper limit
+
+192 Random Course Option Lower Level
+
+193 random course option bpm fluctuation range
+
+194 random course option bpm upper limit
+
+195 random course option bpm lower limit
+
+196 random course option number of stages
+198 Whole course option Default connecting type
+
+199 Overall course option default gauge
+
+LV:
+
+201-231 Titles on song wheel
+
+▒▒▒▒▒▒▒▒▒
+▒ Timer ▒
+▒▒▒▒▒▒▒▒▒
+
+0 main timer
+Fires at the start of the scene.
+
+1 Input start timer
+Triggers after the time defined by #STARTINPUT.
+
+2 fade out timer
+Works during fade out.
+After the time defined by #FADEOUT has passed, the next scene will be played.
+
+3 Closing timer
+Works when closed.
+When the time defined by #CLOSE passes, it will move to the next scene.
+
+4 character input end timer
+It will work when the character input is completed.
+Basically, it is used within the program, and I feel that it is not very practical on the skin side.
+
+
+
+
+10 song list moving timer
+Operates at the start of song list movement.
+Turns off when song list movement stops.
+
+11 song change timer
+Fires after the time defined by #STARTINPUT.
+The timer resets every time the song changes.
+
+
+12 song list up move timer (not yet)
+Operates at the start of movement on the song list.
+Turns off when moving up the track list ends.
+
+13 song list down timer (not yet)
+Operates when moving down the track list starts.
+Turns off when moving down the track list ends.
+
+14 song list stop timer (not yet)
+Fires after the time defined by #STARTINPUT.
+It works when moving from the song list move state to the stop state.
+Turns off when song list movement starts.
+
+15 Read Me Start Timer
+Fires at the start of the attached text display.
+Turns off when closed.
+
+16 Read Me End Timer
+Fires at the end of the attached text display.
+Turns off when opened.
+
+17 Course select start timer
+18 Course selection end timer
+
+
+
+21-29 Start panel 1-9
+Activates when the panel 1-8 activation button is pressed.
+It turns off when the panel is closed.
+21 Start panel 1
+22 Start panel 2
+23 Start panel 3
+24 Start Panel 4
+25 Start Panel 5
+26 Start Panel 6
+27 Start Panel 7
+28 Start Panel 8
+29 Start Panel 9
+
+31-39 Exit control panel 1-9
+Fires when panels 1-9 are closed.
+31 End of Panel 1
+32 End of Panel 2
+33 End of Panel 3
+34 End of Panel 4
+35 End of Panel 5
+36 End of Panel 6
+37 End of Panel 7
+38 End of panel 8
+39 End of Panel 9
+
+40 READY
+The time defined by #LOADEND in Playskin has passed and
+And it will work if loading in the background is completed.
+
+41 Start playing
+Activates when the specified time has passed since the READY activation.
+Main timer for playing bms.
+
+42 gauge rising timer 1P
+43 gauge rise timer 2P
+A timer that runs when the gauge rises during judging.
+
+44 gauge max timer 1P
+45 Gauge Max Timer 2P
+A timer that runs when the gauge reaches 100%. It stops every time the gauge goes down and starts again when it reaches 100%.
+
+46 Judge Timer 1P
+47 Judge Timer 2P
+It is a timer that operates at the time of judgment.
+48 Fullcon Timer 1P
+49 Fullcon Timer 2P
+It is a timer that operates when the full condition is achieved.
+
+50- bomb timer
+Operates when judged to be GREAT or higher.
+50 1P bomb timer plate
+51 1P bomb timer 1 key
+52 1P bomb timer 2 keys
+53 1P bomb timer 3 keys
+54 1P bomb timer 4 keys
+55 1P bomb timer 5 keys
+56 1P bomb timer 6 keys
+57 1P bomb timer 7 keys
+58 1P bomb timer 8 keys
+59 1P bomb timer 9 keys
+
+60 2P bomb timer plate
+61 2P bomb timer 1 key
+62 2P bomb timer 2 keys
+63 2P bomb timer 3 keys
+64 2P bomb timer 4 keys
+65 2P bomb timer 5 keys
+66 2P bomb timer 6 keys
+67 2P bomb timer 7 keys
+68 2P bomb timer 8 keys
+69 2P bomb timer 9 keys
+
+70- Hold effect timer
+Operates at the start of long note hold and stops at the end of hold.
+70 1PLN effect timer dish
+71 1 PLN effect timer 1 key
+72 1 PLN effect timer 2 keys
+73 1 PLN effect timer 3 keys
+74 1 PLN effect timer 4 keys
+75 1 PLN effect timer 5 keys
+76 1 PLN effect timer 6 keys
+77 1 PLN effect timer 7 keys
+78 1 PLN effect timer 8 keys
+79 1 PLN effect timer 9 keys
+
+80 2PLN effect timer dish
+81 2PLN effect timer 1 key
+82 2PLN effect timer 2 keys
+83 2PLN effect timer 3 keys
+84 2 PLN effect timer 4 keys
+85 2 PLN effect timer 5 keys
+86 2PLN effect timer 6 keys
+87 2PLN effect timer 7 keys
+88 2 PLN effect timer 8 keys
+89 2PLN effect timer 9 keys
+
+100- key on timer
+It works when the key is turned on.
+Stop when the key is off.
+100 1P key-on timer plate
+101 1P key-on timer 1 key
+102 1P key-on timer 2 keys
+103 1P key-on timer 3 keys
+104 1P key-on timer 4 keys
+105 1P key-on timer 5 keys
+106 1P key-on timer 6 keys
+107 1P key-on timer 7 keys
+108 1P key-on timer 8 keys
+109 1P key-on timer 9 keys
+
+110 2P key-on timer plate
+111 2P key-on timer 1 key
+112 2P key-on timer 2 keys
+113 2P key-on timer 3 keys
+114 2P key-on timer 4 keys
+115 2P key-on timer 5 keys
+116 2P key-on timer 6 keys
+117 2P key-on timer 7 keys
+118 2P key-on timer 8 keys
+119 2P key-on timer 9 keys
+
+120- Key off timer
+It works when the key is turned off.
+Stop when the key is turned on.
+120 1P key-off timer plate
+121 1P key-off timer 1 key
+122 1P key-off timer 2 keys
+123 1P key-off timer 3 keys
+124 1P key-off timer 4 keys
+125 1P key-off timer 5 keys
+126 1P key-off timer 6 keys
+127 1P key-off timer 7 keys
+128 1P key-off timer 8 keys
+129 1P key-off timer 9 keys
+
+130 2P key-off timer plate
+131 2P key-off timer 1 key
+132 2P key off timer 2 keys
+133 2P key-off timer 3 keys
+134 2P key-off timer 4 keys
+135 2P key off timer 5 keys
+136 2P key-off timer 6 keys
+137 2P key-off timer 7 keys
+138 2P key-off timer 8 keys
+139 2P key off timer 9 keys
+
+140 Rhythm Timer
+It is a timer when one beat is 1000.
+It works at the same time as the song starts.
+It is reset each time the bar changes.
+143 Last Note Timer 1P
+144 Final Note Timer 2P
+Fires when the last note is judged.
+
+
+
+150 Result graph drawing start timer
+Triggered at the start of graph drawing in Results.
+
+151 Result Graph Drawing End Timer (Play Rank Display Timer)
+It is activated at the end of graph drawing in the result.
+If you press a key while drawing a graph, it will skip and this timer will start suddenly.
+
+152 Result high score update timer
+After drawing the graph in Result, press any key to activate.
+
+170 Database loading timer
+171 database load completion timer
+
+172 IR connection start timer
+173 IR connection success timer
+174 IR connection failure timer
+180 Course Editor Start Timer
+181 Course Editor End Timer
+
+200	1P SC-L ON	
+201	1P SC-L OFF	
+202	1P SC-R ON	
+203	1P SC-R OFF	
+204	1P START ON	
+205	1P SELECT ON	
+206	1P HS-UP ON	
+207	1P HS-DOWN ON	
+208	1P START OFF	
+209	1P SELECT OFF	
+212	1P SC-ABS Move	
+220	2P SC-L ON	
+221	2P SC-L OFF	
+222	2P SC-R ON	
+223	2P SC-R OFF	
+224	2P START ON	
+225	2P SELECT ON	
+226	2P HS-UP ON	
+227	2P HS-DOWN ON	
+228	2P START OFF	
+229	2P SELECT OFF	
+232	2P SC-ABS Move	
+240	ARENA: Host Created / Client Joined lobby	
+241	ARENA: Wait for oppenents finish playing	
+242	ARENA: Wait for oppenents finish result
+
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒ Others/Slider/Bargraph ▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+// number align
+0 right justified
+1 left alignment
+2 centered
+
+//text align
+0 left alignment
+1 centered
+2 right justify
+
+//panels
+0 not specified
+1 Only when Panel 1 is activated
+2 Only when Panel 2 is activated
+3 Only when Panel 3 is activated
+4 Only when Panel 4 is activated
+5 Only when Panel 5 is activated
+6 Only when Panel 6 is activated
+7 Only when Panel 7 is activated
+8 Only when panel 8 is activated
+9 Only when Panel 9 is activated
+-1 All panels are OFF
+
+//blend
+0 none
+1 alpha
+2 Additive drawing
+3 subtraction drawing
+4 multiplication drawing
+6 XOR
+9 Multiply by the inverse of the destination color
+10 Reverse drawing
+11 Multiplication with alpha channel consideration
+
+// special gr
+100 STAGE FILES
+101 BACK BMP
+102 BANNER
+105 Thumbnail for skin selection
+110 Black 1 dot
+111 White 1 dot
+
+//acc
+0 constant velocity
+1 acceleration
+2 Deceleration
+3 discontinuities
+
+////slider
+1 song select position
+
+2 High Speed 1P
+3 High Speed 2P
+
+4 Shutter 1P
+5 Shutter 2P
+The shutter (Sadopla) during play is
+Treat it like a giant slider.
+
+6 Scrollbar for music select
+
+7 Scrollbar for skin customization options in skin select
+
+8 IR scroll bar
+
+
+FX slider
+10 EQ0
+11 EQ1
+12 EQ2
+13 EQ3
+14 EQ4
+15 EQ5
+16 EQ6
+
+17 MASTER VOLUME
+18 KEY VOLUME
+19 BGM VOLUME
+ 
+20 MASTER FX P1
+21 MASTER FX P2
+22 KEY FX P1
+23 KEY FX P2
+24 BGM FX P1
+25 BGM FX P2
+
+26 Pitches
+
+
+//// bar graph
+//Information during play
+1 track progress
+2 songs loaded
+
+3 level bar (maximum value is 9/12/42), if you want to shine when it exceeds, branch with dstop185/186
+
+5 The level of the song in the beginner score in the same folder
+6 The level of the normal music score in the same folder
+7 Level of songs in hyper music in the same folder
+8 Level of songs in another score in the same folder
+9 Level of songs in insane music in the same folder
+
+
+// Score graph related
+10 1P EXSCORE
+11 1P EXSCORE predicted value
+12 1P HIGHSCORE current value
+13 1P HIGHSCORE final value
+14 2P(target) EXSCORE current value
+15 2P(target) EXSCORE final value
+
+16 ARENA EXSCORE backup
+17 ARENA Rate backup
+
+// for results
+20 1P PG/total notes
+21 1P GR/total notes
+22 1P GD/total notes
+23 1P BD/total notes
+24 1P PR/total notes
+25 1P MAXCOMBO/total notes
+26 1P SCORE/200000
+27 1P EXSCORE/totalnotes // 2
+
+
+30 2P (target) PG/total notes
+31 2P (target) GR/total notes
+32 2P (target) GD/total notes
+33 2P(target) BD/totalnotes
+34 2P(target) PR/totalnotes
+35 2P(target) MAXCOMBO/totalnotes
+36 2P(target) SCORE/200000
+37 2P(target) exscore/totalmarks//2
+
+//Free snowflake installation checklist
+
+40 HIGHSCORE PG/total marks
+41 HIGHSCORE GR/totalnotes
+42 HIGHSCORE GD/total marks
+43 HIGHSCORE BD/totalnotes
+44 HIGHSCORE PR/totalnotes
+45 HIGHSCORE MAXCOMBO/totalnotes
+46 HIGHSCORE SCORE/200000
+47 HIGHSCORE EXSCORE/totalnotes // 2
+
+48 1P SLOW
+49 1P FAST
+
+58 2P SLOW
+59 2P FAST
+
+100	ARENA: P1 EXSCORE	
+101	ARENA: P1 Rate	
+102-109	ARENA: P1 Reserved	
+110-119	ARENA: P2	
+120-129	ARENA: P3	
+130-139	ARENA: P4	
+140-149	ARENA: P5	
+150-159	ARENA: P6	
+160-169	ARENA: P7	
+170-179	ARENA: P8
+
+
+Extended LVFSkin
+Suggestion from oraja series
+
+DST Option
+
+
+
+[LV Extras] Due to conflict :)
+? Table Song
+? Random Select [????????...]
+? Random Course
+? Practice Mode
+? BPM Stop
+? Border or More
+? Fast 1P
+? Slow 1P
+? Fast 2P
+? Slow 2P
+
+
+Number
+
+Total Play Time
+17 Hour
+18 Minute
+19 Seconds
+
+Operating Time (Up time)
+27 Hour
+28 Minute
+29 Seconds
+
+222 IR Player Perfect
+223 IR Player Perfect Rate
+224 IR Player MAX
+225 IR Player MAX Rate
+226 IR Player Total Clear
+227 IR Player Total Clear Rate
+228 IR Player Total Full Combo
+229 IR Player Total Full Combo Rate
+230 IR Player No Play Rate after dot
+231 IR Player Assist Rate after dot
+232 IR Player Light Assist Rate after dot
+233 IR Player EX-Hard Rate after dot
+234 IR Player Failed Rate after dot
+235 IR Player Easy Rate after dot
+236 IR Player Normal Rate after dot
+237 IR Player Hard Rate after dot
+238 IR Player Full Combo Rate after dot
+239 IR Player Perfect Rate after dot
+240 IR Player MAX Rate after dot
+241 IR Player Total Clear Rate after dot
+242 IR Player Total Full Combo Rate after dot
+
+300 Total charts in folder
+
+310 Hi-Speed 1P
+311 Hi-Speed after dot 1P
+312 Duration ms 1P
+313 Duration Green 1P [Duplication of 302 GREEN NUMBER]
+314 Number Lift 1P
+315 Number Hidden 1P
+
+320 Folder No Play
+321 Folder Failed
+322 Folder Assist
+323 Folder Light Assist
+324 Folder Easy
+325 Folder Groove
+326 Folder Hard
+327 Folder EX-Hard
+328 Folder Full Combo
+329 Folder Perfect
+330 Folder MAX
+
+333 Total Play Notes
+
+350 Total Normal Note BMS
+351 Total Long Note BMS
+352 Total Scratch Note BMS
+353 Total Back-Scratch-Spin Note BMS
+354 Total Landmine Notes BMS
+
+360 [361] Peak Density
+362 [363] End Density
+364 [365] Average Density
+
+368 Song Gauge Total
+
+370 Clear
+371 Target Clear
+372 Average Duration
+373 Average Duration after dot
+374 Average Timing
+375 Average Timimg after dot
+376 Stddev Timing
+377 Stddev Timing after dot
+
+400 Judge Rank [#DEFEXRANK]
+
+1P
+Fast
+423 Total
+410 Perfect
+412 Great
+414 Good
+416 Bad
+418 Poor
+421 Empty Poor
+
+420 Empty Poor
+
+Slow
+424 Total
+411 Perfect
+413 Great
+415 Good
+417 Bad
+419 Poor
+422 Empty Poor
+
+425 Combo Break
+426 Poor only
+427 B+P+EP
+
+2P
+Fast
+443 Total
+430 Perfect
+432 Great
+434 Good
+436 Bad
+438 Poor
+441 Empty Poor
+
+440 Empty Poor
+
+Slow
+444 Total
+431 Perfect
+433 Great
+435 Good
+437 Bad
+439 Poor
+442 Empty Poor
+
+445 Combo Break
+446 Poor only
+447 B+P+EP
+
+1163 Length Minute
+1164 Length Second
+
+
+1P
+1312 Duration Lanecover On
+1313 Duration Green Lanecover On
+1314 Duration Lanecover Off
+1315 Duration Green Lanecover Off
+1316 MAIN BPM Duration Lanecover On
+1317 MAIN BPM Duration Green Lanecover On
+1318 MAIN BPM Duration Lanecover Off
+1319 MAIN BPM Duration Green Lanecover Off
+1320 MIN BPM Duration Lanecover On
+1321 MIN BPM Duration Green Lanecover On
+1322 MIN BPM Duration Lanecover Off
+1323 MIN BPM Duration Green Lanecover Off
+1324 MAX BPM Duration Lanecover On
+1325 MAX BPM Duration Green Lanecover On
+1326 MAX BPM Duration Lanecover Off
+1327 MAX BPM Duration Green Lanecover Off
+
+2P
+1332 Duration Lanecover On
+1333 Duration Green Lanecover On
+1334 Duration Lanecover Off
+1335 Duration Green Lanecover Off
+1336 MAIN BPM Duration Lanecover On
+1337 MAIN BPM Duration Green Lanecover On
+1338 MAIN BPM Duration Lanecover Off
+1339 MAIN BPM Duration Green Lanecover Off
+1340 MIN BPM Duration Lanecover On
+1341 MIN BPM Duration Green Lanecover On
+1342 MIN BPM Duration Lanecover Off
+1343 MIN BPM Duration Green Lanecover Off
+1344 MAX BPM Duration Lanecover On
+1345 MAX BPM Duration Green Lanecover On
+1346 MAX BPM Duration Lanecover Off
+1347 MAX BPM Duration Green Lanecover Off
+
+[LVF Extras] Due to conflict :)
+1200 IR Total Player 2
+1201 IR Total Play Count
+1202 IR Player No Play
+1203 IR Player No Play Rate
+1204 IR Player Assist
+1205 IR Player Assist Rate
+1206 IR Player Light Assist
+1207 IR Player Light Assist Rate
+1208 IR Player EX-Hard
+1209 IR Player EX-Hard Rate
+1210 IR Player Failed
+1211 IR Player Failed Rate
+1212 IR Player Easy
+1213 IR Player Easy Rate
+1214 IR Player Normal
+1215 IR Player Normal Rate
+1216 IR Player Hard
+1217 IR Player Hard Rate
+1218 IR Player Full Combo
+1219 IR Player Full Combo Rate
+
+1380-1389 1-10 Ranking EX-Score
+1390-1399 1-10 Ranking Clear
+
+1450-1459 1P 1-9 key, Scratch Random
+1460-1469 2P 1-9 key, Scratch Random
+[End]
+
+
+
+Text
+
+1000 File Directory
+1001 Difficulty Table Name
+1002 Difficulty Table Level
+1003 Difficulty Table Full
+
+1010 Current Version
+
+1020 Internet Ranking Name
+1021 Internet Ranking Username
+
+1030 Song Hash MD5
+1031 Song Hash SHA256
+
+
+
+Timer
+
+12 song list up move timer 
+Operates at the start of movement on the song list.
+Turns off when moving up the track list ends.
+
+13 song list down timer 
+Operates when moving down the track list starts.
+Turns off when moving down the track list ends.
+
+14 song list stop timer 
+Fires after the time defined by #STARTINPUT.
+It works when moving from the song list move state to the stop state.
+Turns off when song list movement starts.
+
+HELL CHARGE NOTES BOMB
+
+250- Active timer
+Operates at the start of HCN note hold and stops at the end of hold.
+1P
+250 Scratch
+251 1 key
+252 2 key
+253 3 key
+254 4 key
+255 5 key
+256 6 key
+257 7 key
+258 8 key
+259 9 key
+
+2P
+260 Scratch
+261 1 key
+262 2 key
+263 3 key
+264 4 key
+265 5 key
+266 6 key
+267 7 key
+268 8 key
+269 9 key
+
+270- Damage timer
+Operates at damaging of HCN note and stops at the end of HCN or press key and hold.
+1P
+270 Scratch
+271 1 key
+272 2 key
+273 3 key
+274 4 key
+275 5 key
+276 6 key
+277 7 key
+278 8 key
+279 9 key
+
+2P
+280 Scratch
+281 1 key
+282 2 key
+283 3 key
+284 4 key
+285 5 key
+286 6 key
+287 7 key
+288 8 key
+289 9 key
+
+348 DJ Level A confirmed (Trigger of DST option 222)
+349 DJ Level AA confirmed (Trigger of DST option 221)
+350 DJ Level AAA confirmed (Trigger of DST option 220)
+351 New Best Score (Trigger of DST option 330)
+352 New Target Score (Trigger of DST option 352)
+
+
+247 Judge Timer 3rd sublane [PMS, Taken from Pop'n Music]
+446 Combo Timer 1st sublane [PMS, Taken from Pop'n Music]
+447 Combo Timer 2nd sublane [PMS, Taken from Pop'n Music]
+448 Combo Timer 3rd sublane [PMS, Taken from Pop'n Music]
+
+Po-Mu Source sublanes:
+1st sublane is 1-3 lanes
+2nd sublane is 4-6 lanes
+3rd sublane is 7-9 lanes
+
+900-909 Po-Mu chara related
+
+900 1P Netural
+901 1P Fever
+902 1P Great
+903 1P Good
+904 1P Bad
+905 2P Netural
+906 2P Great
+907 2P Bad
+908 Music end
+909 Dance
+
+1010-1099 Extended 1P Bomb
+1110-1199 Extended 2P Bomb
+1210-1299 Extended 1P Hold Bomb
+1310-1399 Extended 2P Hold Bomb
+1410-1499 Extended 1P Key on
+1510-1599 Extended 2P Key on
+1610-1699 Extended 1P Key off
+1710-1799 Extended 2P Key off
+1810-1899 Extended 1P HCN Active
+1910-1999 Extended 2P HCN Active
+2010-2099 Extended 1P HCN Damage
+2110-2199 Extended 2P HCN Damage
+
+2999 MAX timer
+
+10000-19999 Custom Timer
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bar Lamp Index:
+0 NO PLAY
+1 FAILED
+2 EASY CLEAR
+3 CLEAR
+4 HARD CLEAR
+5 PATK or GATK
+6 FULL COMBO
+7 EX HARD CLEAR
+8 ASSISTED CLEAR
+9 ???
+
+[HEADER]
+#INFORMATION,0,Title,Maker,Thumbnail
+Types:
+0：7KEYS
+1：5KEYS
+2：14KEYS
+3：10KEYS
+4：9KEYS
+5：MUSICSELECT
+6：DECIDE
+7：RESULT
+8：KEYCONFIG
+9：SKINSELECT
+10：SOUNDSET
+12：7KEYS BATTLE
+13：5KEYS BATTLE
+15：COURSE RESULT
+
+#RESOLUTION,1,
+0:SD
+1:HD
+2:FHD
+3:UHD[NEW!]
+
+#CUSTOMOPTION,Name,CustomOP,Name1,Name2,...
+
+#CUSTOMFILE,Name,.\LR2files\Theme\,Default,
+
+#ENDOFHEADER
+
+[CODE PLACEMENT]
+#SCRATCHSIDE,0,0
+#TRANSCOLOR,255,0,255
+#STARTINPUT,0
+
+#LOADSTART,1500
+#LOADEND,2000
+#PLAYSTART,1200
+
+#FADEOUT,500
+#CLOSE,2000
+
+#IMAGE,dummy,
+#IMAGE,CONTINUE,
+
+#LR2FONT,font file
+
+#INCLUDE,[place csv here]
+
+#SETOPTION,customoption,switch
+#RELOADBANNER
+
+#IF,A,B
+#ELSEIF,A,B
+#ELSE
+#ENDIF
+
+IMAGE[For opX go to line ***, for blend go to line ***, for filter go to line ***, for timer go to line ***]:
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,0,0,0,0,0,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+#DST_IMAGE,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0
+
+Center:
+1  2   3
+4 5[0] 6
+7  8   9
+==========================================================
+NUMBER[For num go to line ***]:
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,num,align,keta
+#SRC_NUMBER,0,0,0,0,0,0,1,1,0,0,0,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NUMBER,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+#DST_NUMBER,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0
+
+Align: 
+0 - Right 
+1 - Left 
+2 - Center
+
+Keta is used for amount of digits
+==========================================================
+SLIDER[For type of sliders go to line ***]:
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,muki,range,type,disable
+#SRC_SLIDER,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_SLIDER,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+#DST_SLIDER,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0
+
+Muki:
+0 - Up
+1 - Right
+2 - Down
+3 - Left
+
+Range is used for amount of sliding range
+Disable is used to prevent sliding manually
+==========================================================
+BARGRAPH[For type of bargraphs go to line ***]:
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,type,muki
+#SRC_BARGRAPH,0,0,0,0,0,0,1,1,0,0,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op1,op3
+#DST_BARGRAPH,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+#DST_BARGRAPH,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0
+
+Muki:
+0 - Right
+1 - Down
+==========================================================
+BUTTON[For type of button go to line ***]
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,type,click,panel,plusonly
+#SRC_BUTTON,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_BUTTON,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+#DST_BUTTON,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0
+
+Click is used for button will be clickable
+
+Panel:
+0 - Netural Panel
+1~9 - Active Panels
+-1 - All Panels
+
+PlusOnly is used for switching plus only [Value disabled for minus is half right and plus is half left]
+==========================================================
+ONMOUSE
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,panel,x2,y2,w2,h2
+#SRC_ONMOUSE,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_ONMOUSE,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+#DST_ONMOUSE,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0
+==========================================================
+TEXT[For strings go to line ***]
+//SRC定義,(NULL),font,st,align,edit,panel
+#SRC_TEXT,0,0,0,0,0,0
+//DST定義,(NULL),time,x,y,w,size,acc,a,r,g,b,blend,filter,(NULL),(NULL),loop,timer,op1,op2,op3
+#DST_TEXT,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+#DST_TEXT,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0
+
+Edit is used to edit this string when available
+==========================================================
+BGA
+//[BGA]
+//SRC定義,(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL),nobase,nolayer,nopoor
+#SRC_BGA,0,0,0,0,0,0,0,0,0,0,0,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_BGA,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+==========================================================
+JUDGELINE
+1P
+//[判定ライン]
+//1P index = 0 //2P index = 1
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_JUDGELINE,0,0,0,0,0,0,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_JUDGELINE,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+#DST_JUDGELINE,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0
+1P&2P
+//[判定ライン]
+//1P index = 0 //2P index = 1
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_JUDGELINE,0,0,0,0,0,0,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_JUDGELINE,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+#DST_JUDGELINE,0,0,0,0,0,0,0,255,255,255,255,1,0,0,0
+
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_JUDGELINE,1,0,0,0,0,0,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_JUDGELINE,1,0,0,0,0,0,0,255,255,255,255,1,0,0,0,0,0,0,0,0
+#DST_JUDGELINE,1,0,0,0,0,0,0,255,255,255,255,1,0,0,0
+==========================================================
+LINE
+//[小節線]
+//1P index = 0 //2P index = 1
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_LINE,0,0,0,0,0,1,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_LINE,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_LINE,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+1P&2P
+//[小節線]
+//1P index = 0 //2P index = 1
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_LINE,0,0,0,0,0,1,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_LINE,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_LINE,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_LINE,1,0,0,0,0,1,1,1,0,0
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_LINE,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_LINE,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+==========================================================
+Note
+5K
+//[ノーツ]
+//通常ノーツ
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_NOTE,0,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,1,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,2,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,3,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,4,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,5,0,0,0,0,0,1,1,0,0
+
+//ロングノート上
+#SRC_LN_END,0,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,5,0,0,0,0,0,1,1,0,0
+
+//ロングノートの中間のバー
+#SRC_LN_BODY,0,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,5,0,0,0,0,0,1,1,0,0
+
+//ロングノート下
+#SRC_LN_START,0,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,5,0,0,0,0,0,1,1,0,0
+
+//地雷
+#SRC_MINE,0,0,0,0,0,0,1,1,0,0
+#SRC_MINE,1,0,0,0,0,0,1,1,0,0
+#SRC_MINE,2,0,0,0,0,0,1,1,0,0
+#SRC_MINE,3,0,0,0,0,0,1,1,0,0
+#SRC_MINE,4,0,0,0,0,0,1,1,0,0
+#SRC_MINE,5,0,0,0,0,0,1,1,0,0
+
+//[オートプレイ用ノーツ]
+//通常ノーツ
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_AUTO_NOTE,0,0,0,0,0,0,1,1,0,0
+
+//ロングノート上
+#SRC_AUTO_LN_END,0,0,0,0,0,0,1,1,0,0
+
+//ロングノートの中間のバー
+#SRC_AUTO_LN_BODY,0,0,0,0,0,0,1,1,0,0
+
+//ロングノート下
+#SRC_AUTO_LN_START,0,0,0,0,0,0,1,1,0,0
+
+//地雷
+#SRC_MINE,0,0,0,0,0,0,1,1,0,0
+
+//ノート落下地点
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOTE,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,2,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+
+7K
+//[ノーツ]
+//通常ノーツ
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_NOTE,0,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,1,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,2,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,3,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,4,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,5,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,6,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,7,0,0,0,0,0,1,1,0,0
+
+//ロングノート上
+#SRC_LN_END,0,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,5,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,6,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,7,0,0,0,0,0,1,1,0,0
+
+//ロングノートの中間のバー
+#SRC_LN_BODY,0,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,5,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,6,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,7,0,0,0,0,0,1,1,0,0
+
+//ロングノート下
+#SRC_LN_START,0,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,5,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,6,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,7,0,0,0,0,0,1,1,0,0
+
+//地雷
+#SRC_MINE,0,0,0,0,0,0,1,1,0,0
+#SRC_MINE,1,0,0,0,0,0,1,1,0,0
+#SRC_MINE,2,0,0,0,0,0,1,1,0,0
+#SRC_MINE,3,0,0,0,0,0,1,1,0,0
+#SRC_MINE,4,0,0,0,0,0,1,1,0,0
+#SRC_MINE,5,0,0,0,0,0,1,1,0,0
+#SRC_MINE,6,0,0,0,0,0,1,1,0,0
+#SRC_MINE,7,0,0,0,0,0,1,1,0,0
+
+//[オートプレイ用ノーツ]
+//通常ノーツ
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_AUTO_NOTE,0,0,0,0,0,0,1,1,0,0
+
+//ロングノート上
+#SRC_AUTO_LN_END,0,0,0,0,0,0,1,1,0,0
+
+//ロングノートの中間のバー
+#SRC_AUTO_LN_BODY,0,0,0,0,0,0,1,1,0,0
+
+//ロングノート下
+#SRC_AUTO_LN_START,0,0,0,0,0,0,1,1,0,0
+
+//地雷
+#SRC_MINE,0,0,0,0,0,0,1,1,0,0
+
+//ノート落下地点
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOTE,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,2,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,6,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,7,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+
+9K
+//[ノーツ]
+//通常ノーツ
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_NOTE,1,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,2,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,3,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,4,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,5,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,6,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,7,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,8,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,9,0,0,0,0,0,1,1,0,0
+
+//ロングノート上
+#SRC_LN_END,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,5,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,6,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,7,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,8,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,9,0,0,0,0,0,1,1,0,0
+
+//ロングノートの中間のバー
+#SRC_LN_BODY,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,5,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,6,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,7,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,8,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,9,0,0,0,0,0,1,1,0,0
+
+//ロングノート下
+#SRC_LN_START,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,5,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,6,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,7,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,8,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,9,0,0,0,0,0,1,1,0,0
+
+//地雷
+#SRC_MINE,1,0,0,0,0,0,1,1,0,0
+#SRC_MINE,2,0,0,0,0,0,1,1,0,0
+#SRC_MINE,3,0,0,0,0,0,1,1,0,0
+#SRC_MINE,4,0,0,0,0,0,1,1,0,0
+#SRC_MINE,5,0,0,0,0,0,1,1,0,0
+#SRC_MINE,6,0,0,0,0,0,1,1,0,0
+#SRC_MINE,7,0,0,0,0,0,1,1,0,0
+#SRC_MINE,8,0,0,0,0,0,1,1,0,0
+#SRC_MINE,90,0,0,0,0,1,1,0,0
+
+//ノート落下地点
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOTE,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,2,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,6,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,7,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,8,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,9,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+
+10K
+//[ノーツ]
+//通常ノーツ
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_NOTE,0,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,1,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,2,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,3,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,4,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,5,0,0,0,0,0,1,1,0,0
+
+#SRC_NOTE,10,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,11,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,12,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,13,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,14,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,15,0,0,0,0,0,1,1,0,0
+
+//ロングノート上
+#SRC_LN_END,0,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,5,0,0,0,0,0,1,1,0,0
+
+#SRC_LN_END,10,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,11,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,12,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,13,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,14,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,15,0,0,0,0,0,1,1,0,0
+
+//ロングノートの中間のバー
+#SRC_LN_BODY,0,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,5,0,0,0,0,0,1,1,0,0
+
+#SRC_LN_BODY,10,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,11,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,12,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,13,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,14,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,15,0,0,0,0,0,1,1,0,0
+
+//ロングノート下
+#SRC_LN_START,0,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,5,0,0,0,0,0,1,1,0,0
+
+#SRC_LN_START,10,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,11,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,12,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,13,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,14,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,15,0,0,0,0,0,1,1,0,0
+
+
+//地雷
+#SRC_MINE,0,0,0,0,0,0,1,1,0,0
+#SRC_MINE,1,0,0,0,0,0,1,1,0,0
+#SRC_MINE,2,0,0,0,0,0,1,1,0,0
+#SRC_MINE,3,0,0,0,0,0,1,1,0,0
+#SRC_MINE,4,0,0,0,0,0,1,1,0,0
+#SRC_MINE,5,0,0,0,0,0,1,1,0,0
+
+#SRC_MINE,10,0,0,0,0,0,1,1,0,0
+#SRC_MINE,11,0,0,0,0,0,1,1,0,0
+#SRC_MINE,12,0,0,0,0,0,1,1,0,0
+#SRC_MINE,13,0,0,0,0,0,1,1,0,0
+#SRC_MINE,14,0,0,0,0,0,1,1,0,0
+#SRC_MINE,15,0,0,0,0,0,1,1,0,0
+
+//[オートプレイ用ノーツ]
+//通常ノーツ
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_AUTO_NOTE,0,0,0,0,0,0,1,1,0,0
+#SRC_AUTO_NOTE,10,0,0,0,0,0,1,1,0,0
+
+//ロングノート上
+#SRC_AUTO_LN_END,0,0,0,0,0,0,1,1,0,0
+#SRC_AUTO_LN_END,10,0,0,0,0,0,1,1,0,0
+
+//ロングノートの中間のバー
+#SRC_AUTO_LN_BODY,0,0,0,0,0,0,1,1,0,0
+#SRC_AUTO_LN_BODY,10,0,0,0,0,0,1,1,0,0
+
+//ロングノート下
+#SRC_AUTO_LN_START,0,0,0,0,0,0,1,1,0,0
+#SRC_AUTO_LN_START,10,0,0,0,0,0,1,1,0,0
+
+//地雷
+#SRC_MINE,0,0,0,0,0,0,1,1,0,0
+#SRC_MINE,10,0,0,0,0,0,1,1,0,0
+
+//ノート落下地点
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOTE,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,2,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+
+#DST_NOTE,10,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,11,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,12,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,13,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,14,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,15,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+
+14K
+//[ノーツ]
+//通常ノーツ
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_NOTE,0,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,1,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,2,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,3,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,4,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,5,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,6,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,7,0,0,0,0,0,1,1,0,0
+
+#SRC_NOTE,10,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,11,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,12,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,13,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,14,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,15,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,16,0,0,0,0,0,1,1,0,0
+#SRC_NOTE,17,0,0,0,0,0,1,1,0,0
+
+//ロングノート上
+#SRC_LN_END,0,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,5,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,6,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,7,0,0,0,0,0,1,1,0,0
+
+#SRC_LN_END,10,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,11,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,12,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,13,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,14,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,15,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,16,0,0,0,0,0,1,1,0,0
+#SRC_LN_END,17,0,0,0,0,0,1,1,0,0
+
+//ロングノートの中間のバー
+#SRC_LN_BODY,0,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,5,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,6,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,7,0,0,0,0,0,1,1,0,0
+
+#SRC_LN_BODY,10,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,11,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,12,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,13,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,14,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,15,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,16,0,0,0,0,0,1,1,0,0
+#SRC_LN_BODY,17,0,0,0,0,0,1,1,0,0
+
+//ロングノート下
+#SRC_LN_START,0,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,1,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,2,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,3,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,4,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,5,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,6,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,7,0,0,0,0,0,1,1,0,0
+
+#SRC_LN_START,10,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,11,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,12,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,13,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,14,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,15,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,16,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,17,0,0,0,0,0,1,1,0,0
+
+//地雷
+#SRC_MINE,0,0,0,0,0,0,1,1,0,0
+#SRC_MINE,1,0,0,0,0,0,1,1,0,0
+#SRC_MINE,2,0,0,0,0,0,1,1,0,0
+#SRC_MINE,3,0,0,0,0,0,1,1,0,0
+#SRC_MINE,4,0,0,0,0,0,1,1,0,0
+#SRC_MINE,5,0,0,0,0,0,1,1,0,0
+#SRC_MINE,6,0,0,0,0,0,1,1,0,0
+#SRC_MINE,7,0,0,0,0,0,1,1,0,0
+
+#SRC_LN_START,10,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,11,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,12,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,13,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,14,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,15,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,16,0,0,0,0,0,1,1,0,0
+#SRC_LN_START,17,0,0,0,0,0,1,1,0,0
+
+//[オートプレイ用ノーツ]
+//通常ノーツ
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_AUTO_NOTE,0,0,0,0,0,0,1,1,0,0
+#SRC_AUTO_NOTE,10,0,0,0,0,0,1,1,0,0
+
+//ロングノート上
+#SRC_AUTO_LN_END,0,0,0,0,0,0,1,1,0,0
+#SRC_AUTO_LN_END,10,0,0,0,0,0,1,1,0,0
+
+//ロングノートの中間のバー
+#SRC_AUTO_LN_BODY,0,0,0,0,0,0,1,1,0,0
+#SRC_AUTO_LN_BODY,10,0,0,0,0,0,1,1,0,0
+
+//ロングノート下
+#SRC_AUTO_LN_START,0,0,0,0,0,0,1,1,0,0
+#SRC_AUTO_LN_START,10,0,0,0,0,0,1,1,0,0
+
+//地雷
+#SRC_MINE,0,0,0,0,0,0,1,1,0,0
+#SRC_MINE,10,0,0,0,0,0,1,1,0,0
+
+//ノート落下地点
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOTE,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,2,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,6,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,7,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+
+#DST_NOTE,10,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,11,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,12,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,13,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,14,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,15,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,16,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOTE,17,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+
+==========================================================
+NOWJUDGE/NOWCOMBO
+1P
+//[ジャッジ表示]
+//空Poor index = 0
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_1P,0,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_1P,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_1P,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//見逃しPoor index = 1
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_1P,1,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_1P,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_1P,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Bad index = 2
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_1P,2,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_1P,2,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_1P,2,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Good index = 3
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_1P,3,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_1P,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_1P,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Great index = 4
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_1P,4,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_1P,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_1P,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//PERFECT index = 5
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_1P,5,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_1P,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_1P,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//[コンボカウント]
+//Good index = 3
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,(null),align,keta
+#SRC_NOWCOMBO_1P,3,0,0,0,0,0,1,1,0,0,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWCOMBO_1P,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWCOMBO_1P,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Great index = 4
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,(null),align,keta
+#SRC_NOWCOMBO_1P,4,0,0,0,0,0,1,1,0,0,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWCOMBO_1P,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWCOMBO_1P,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Just Great index = 5
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,(null),align,keta
+#SRC_NOWCOMBO_1P,5,0,0,0,0,0,1,1,0,0,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWCOMBO_1P,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWCOMBO_1P,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+1P&2P
+//[ジャッジ表示]
+//1P
+//空Poor index = 0
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_1P,0,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_1P,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_1P,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//見逃しPoor index = 1
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_1P,1,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_1P,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_1P,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Bad index = 2
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_1P,2,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_1P,2,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_1P,2,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Good index = 3
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_1P,3,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_1P,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_1P,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Great index = 4
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_1P,4,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_1P,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_1P,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//PERFECT index = 5
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_1P,5,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_1P,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_1P,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//2P
+//空Poor index = 0
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_2P,0,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_2P,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_2P,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//見逃しPoor index = 1
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_2P,1,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_2P,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_2P,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Bad index = 2
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_2P,2,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_2P,2,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_2P,2,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Good index = 3
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_2P,3,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_2P,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_2P,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Great index = 4
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_2P,4,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_2P,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_2P,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//PERFECT index = 5
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,noshift
+#SRC_NOWJUDGE_2P,5,0,0,0,0,0,1,1,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWJUDGE_2P,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWJUDGE_2P,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//[コンボカウント]
+//1P
+//Good index = 3
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,(null),align,keta
+#SRC_NOWCOMBO_1P,3,0,0,0,0,0,1,1,0,0,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWCOMBO_1P,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWCOMBO_1P,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Great index = 4
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,(null),align,keta
+#SRC_NOWCOMBO_1P,4,0,0,0,0,0,1,1,0,0,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWCOMBO_1P,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWCOMBO_1P,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Just Great index = 5
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,(null),align,keta
+#SRC_NOWCOMBO_1P,5,0,0,0,0,0,1,1,0,0,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWCOMBO_1P,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWCOMBO_1P,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//2P
+//Good index = 3
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,(null),align,keta
+#SRC_NOWCOMBO_2P,3,0,0,0,0,0,1,1,0,0,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWCOMBO_2P,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWCOMBO_2P,3,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Great index = 4
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,(null),align,keta
+#SRC_NOWCOMBO_2P,4,0,0,0,0,0,1,1,0,0,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWCOMBO_2P,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWCOMBO_2P,4,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//Just Great index = 5
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,(null),align,keta
+#SRC_NOWCOMBO_2P,5,0,0,0,0,0,1,1,0,0,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_NOWCOMBO_2P,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_NOWCOMBO_2P,5,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+=================================================================
+GROOVEGAUGE
+1P
+//[グルーヴゲージ]
+//表赤、表緑、裏赤、裏緑の順にsrc分割を行ってください。4の倍数でcycle>0ならちゃんとアニメーションします
+//次のゲージの相対位置はadd_x、add_yで指定して下さい。
+//1P index = 0 //2P index = 1
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,add_x,add_y
+#SRC_GROOVEGAUGE,0,0,0,0,0,0,1,1,0,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_GROOVEGAUGE,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_GROOVEGAUGE,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+1P&2P
+//[グルーヴゲージ]
+//表赤、表緑、裏赤、裏緑の順にsrc分割を行ってください。4の倍数でcycle>0ならちゃんとアニメーションします
+//次のゲージの相対位置はadd_x、add_yで指定して下さい。
+//1P index = 0
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,add_x,add_y
+#SRC_GROOVEGAUGE,0,0,0,0,0,0,1,1,0,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_GROOVEGAUGE,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_GROOVEGAUGE,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+
+//2P index = 1
+//SRC定義,index,gr,x,y,w,h,div_x,div_y,cycle,timer,add_x,add_y
+#SRC_GROOVEGAUGE,1,0,0,0,0,0,1,1,0,0,0,0
+//DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_GROOVEGAUGE,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0,0
+#DST_GROOVEGAUGE,1,0,0,0,0,0,0,255,255,255,255,0,0,0,0
+=================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

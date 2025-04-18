@@ -31,23 +31,32 @@ Input mode:
 920 - Controller
 
 Judge Display:
-921 - ON
-922 - OFF
+921 - OFF
+922 - ON
+923 - Expanded
 
 Colored Timing:
-923 - OFF
-924 - ON
+924 - OFF
+925 - ON
 
 Use Empty Poor Judge:
-925 - OFF
-926 - ON
+926 - OFF
+927 - ON
 
 SP Shutter:
-927 - Always Opened
-928 - Always Closed
-929 - OFF
+928 - Always Opened
+929 - Always Closed
+930 - OFF
 
 DP Shutter:
-930 - Always Closed
-931 - Always Opened
-932 - OFF
+931 - Always Closed
+932 - Always Opened
+933 - OFF
+
+Expanded Tempo:
+934 - OFF
+935 - ON
+
+Expanded Gauge [1P Only]
+938 - OFF
+939 - ON

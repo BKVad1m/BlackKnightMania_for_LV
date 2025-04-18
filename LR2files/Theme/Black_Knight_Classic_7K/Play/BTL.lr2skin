@@ -30,6 +30,8 @@
 #CUSTOMOPTION,Use Empty POOR Judge,926,OFF,ON,
 #CUSTOMOPTION,SP Shutter,928,Opened,Closed,OFF,
 #CUSTOMOPTION,DP Shutter,931,Closed,Opened,OFF,
+#CUSTOMOPTION,Expanded Tempo,934,OFF,ON,
+#CUSTOMOPTION,Expanded Gauge[1P ONLY],938,OFF,ON,
 #CUSTOMFILE,NOTES,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Notes\*.png,Default 8dot,
 #CUSTOMFILE,LONG NOTES,.\LR2files\Theme\Black_Knight_Classic_7K\Play\LNotes\*.png,Deluxe,
 #CUSTOMFILE,BOM,.\LR2files\Theme\Black_Knight_Classic_7K\Play\Bomb\*.png,SPADA,
